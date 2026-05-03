@@ -30,18 +30,6 @@ export const metadata: Metadata = {
   },
   description:
     "Empresa de reformas integrales en El Vendrell y Baix Penedès. Pisos costeros, casas de pueblo, segundas residencias en Coma-ruga y Sant Salvador. Llama: 877 278 163.",
-  keywords: [
-    "reformas Vendrell",
-    "reformas El Vendrell",
-    "reformas integrales Vendrell",
-    "reformas cocinas Vendrell",
-    "reformas baños Vendrell",
-    "reformas pisos Vendrell",
-    "reformas Coma-ruga",
-    "reformas Sant Salvador",
-    "reformas Baix Penedès",
-    "empresa reformas Vendrell",
-  ],
   authors: [{ name: "Clima Reformas Vendrell" }],
   creator: "Clima Reformas Vendrell",
   publisher: "Clima Reformas Vendrell",
