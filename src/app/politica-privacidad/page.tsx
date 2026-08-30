@@ -26,7 +26,7 @@ export default function PoliticaPrivacidadPage() {
             </h2>
             <ul className="list-disc pl-6 space-y-1 text-subtitle">
               <li><strong>Responsable:</strong> Clima Reformas Vendrell</li>
-              <li><strong>Dirección:</strong> C/ Apel·les Fenosa, 16, 43700 El Vendrell, Tarragona</li>
+              <li><strong>Dirección:</strong> Carrer d'Apel·les Fenosa, 16, 43700 El Vendrell, Tarragona</li>
               <li><strong>Teléfono:</strong> 877 278 163</li>
               <li><strong>Email:</strong> info@reformasvendrell.es</li>
             </ul>

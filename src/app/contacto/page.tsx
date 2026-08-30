@@ -127,7 +127,7 @@ export default function ContactoPage() {
                   <h3 className="font-body font-bold text-dark text-base uppercase">Dirección</h3>
                 </div>
                 <p className="font-body text-dark text-base font-medium">
-                  C/ Apel·les Fenosa, 16
+                  Carrer d'Apel·les Fenosa, 16
                 </p>
                 <p className="text-subtitle text-sm">43700 El Vendrell, Tarragona</p>
               </div>
@@ -177,13 +177,13 @@ export default function ContactoPage() {
           </div>
           <div className="rounded-[20px] overflow-hidden border border-dark/10 shadow-lg">
             <iframe
-              src="https://www.google.com/maps?q=Carrer+d'Apel%C2%B7les+Fenosa,+16,+43700+El+Vendrell,+Tarragona&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001.1024920941513!2d1.5351571999999998!3d41.219536899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a38b2f971b118f%3A0x50e1043653f87e99!2sClima%20Reformas%20Vendrell!5e0!3m2!1ses!2sfr!4v1788097528221!5m2!1ses!2sfr"
               width="100%"
               height="450"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
               title="Ubicación Clima Reformas Vendrell en El Vendrell"
             />
           </div>

@@ -20,8 +20,8 @@ export default function StructuredData() {
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 41.2186,
-      longitude: 1.5350,
+      latitude: 41.219536899999994,
+      longitude: 1.5351571999999998,
     },
     areaServed: [
       { "@type": "City", name: "El Vendrell" },
