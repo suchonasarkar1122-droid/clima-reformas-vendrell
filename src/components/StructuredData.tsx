@@ -48,10 +48,16 @@ export default function StructuredData() {
     ],
   };
 
+  const website = {"@context":"https://schema.org","@type":"WebSite","@id":"https://reformasvendrell.es/#website","url":"https://reformasvendrell.es","name":"Clima Reformas Vendrell","inLanguage":"es-ES","publisher":{"@id":"https://reformasvendrell.es/#business"}};
+
+
   return (
+    <>
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
+    </>
   );
 }
