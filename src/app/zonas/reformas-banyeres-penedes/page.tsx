@@ -5,31 +5,32 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Banyeres del Penedès · Casas y reformas | CRV",
+  title: "Reformas en Banyeres del Penedès",
   description:
-    "Reformas en Banyeres del Penedès: rehabilitación de casas, reformas integrales y locales. Equipo propio desde El Vendrell. Llama: 877 278 163.",
+    "Reformas en Banyeres del Penedès y Saifores: casas de pueblo, viviendas unifamiliares de urbanización y masías. Equipo propio desde El Vendrell.",
   alternates: { canonical: "/zonas/reformas-banyeres-penedes" },
   openGraph: {
-    title: "Reformas en Banyeres del Penedès · Clima Reformas Vendrell",
-    description: "Empresa de reformas en Banyeres del Penedès y Saifores. Casas tradicionales y viviendas modernas.",
+    title: "Reformas en Banyeres del Penedès",
+    description: "Casas tradicionales y viviendas unifamiliares en Banyeres del Penedès, Saifores y sus urbanizaciones.",
     url: "/zonas/reformas-banyeres-penedes",
     images: ["/images/reforma-integral-vivienda-vendrell.webp"],
   },
 };
 
 const services = [
-  { title: "Reformas Integrales", desc: "Reforma completa de casas y viviendas en Banyeres centre y Saifores con equipo propio.", href: "/servicios/reformas-integrales" },
-  { title: "Reformas de Cocinas", desc: "Cocinas funcionales pensadas para la vida en pueblo: durabilidad y materiales naturales.", href: "/servicios/reformas-cocinas" },
-  { title: "Reformas de Baños", desc: "Baños cómodos en viviendas familiares, con instalación nueva y aislamiento mejorado.", href: "/servicios/reformas-banos" },
-  { title: "Reformas de Pisos", desc: "Renovación de pisos y plantas independientes en casas multifamiliares del centro.", href: "/servicios/reformas-pisos" },
-  { title: "Reformas de Locales", desc: "Adecuación de comercios y oficinas en la calle Mayor y polígonos próximos.", href: "/servicios/reformas-locales" },
+  { title: "Reformas Integrales", desc: "Actualización completa de casas unifamiliares y rehabilitación de casas de pueblo, con mejora energética.", href: "/servicios/reformas-integrales" },
+  { title: "Reformas de Cocinas", desc: "Cocinas abiertas al salón y al jardín, con isla o península cuando hay espacio.", href: "/servicios/reformas-cocinas" },
+  { title: "Reformas de Baños", desc: "Baños completos, suites en el dormitorio principal y aseos nuevos en planta baja.", href: "/servicios/reformas-banos" },
+  { title: "Reformas de Pisos", desc: "Viviendas plurifamiliares del núcleo: instalaciones, suelos, carpintería y pintura.", href: "/servicios/reformas-pisos" },
+  { title: "Reformas de Locales", desc: "Pequeños comercios y espacios de trabajo en los núcleos del municipio.", href: "/servicios/reformas-locales" },
 ];
 
 const faqs = [
-  { q: "¿Reformáis casas en Saifores y la zona rural de Banyeres?", a: "Sí. Saifores tiene un urbanismo más disperso, con casas más alejadas y a veces problemas de acceso para camiones grandes. Hacemos la valoración técnica antes y planificamos la logística (suministros parciales, traslado de escombros) para que la obra fluya." },
-  { q: "¿Qué tipo de reformas son habituales en Banyeres del Penedès?", a: "Lo más frecuente son reformas integrales en casas heredadas que llevan años sin actualizarse: instalaciones obsoletas, baños sin ventilación, cocinas pequeñas y aislamiento térmico inexistente. También adecuaciones de locales para nuevos negocios en la zona del centro." },
-  { q: "¿La proximidad a las viñas del Penedès afecta a alguna obra?", a: "En las casas que lindan con campos de viña sí planificamos los plazos para no coincidir con vendimia o tareas agrícolas que generen polvo o restricciones de paso. Es un detalle local que tenemos en cuenta de oficio." },
-  { q: "¿Cuánto tarda una reforma de casa en Banyeres?", a: "Para una vivienda unifamiliar de unos 120 m² con reforma integral (instalaciones, distribución parcial, cocina, baños, suelos, pintura) calcula entre 12 y 16 semanas. Si solo se interviene en cocina y baños, entre 5 y 7 semanas." },
+  { q: "¿Merece la pena aislar una casa de urbanización?", a: "En interior, sí. Las casas aisladas tienen mucha superficie expuesta y en invierno pierden mucho calor por cubierta y ventanas. Aislar la cubierta y cambiar la carpintería suelen ser las mejoras con más efecto en el confort y en la factura." },
+  { q: "¿Podéis cambiar la caldera de gasoil por aerotermia?", a: "Sí, coordinamos el cambio de sistema con instaladores habilitados y adaptamos la obra para los nuevos equipos. Conviene revisar antes el aislamiento para dimensionar bien la instalación." },
+  { q: "¿Qué permisos necesito para reformar en Banyeres?", a: "Comunicación previa para obras interiores sin afectar estructura ni fachada, y licencia con proyecto técnico cuando sí se afectan. En suelo rústico hay limitaciones adicionales que conviene consultar." },
+  { q: "¿Trabajáis también en Saifores y en las urbanizaciones?", a: "Sí, en todo el término municipal: el núcleo de Banyeres, Saifores y las urbanizaciones de casas unifamiliares. Si el acceso a la calle es estrecho o hay limitaciones para el contenedor, lo resolvemos en la planificación." },
+  { q: "¿Cuánto se tarda en reformar una casa unifamiliar?", a: "Depende mucho del alcance. Una actualización de cocina y baños puede llevar de 6 a 10 semanas; una reforma completa de casa de dos plantas, varios meses. Te damos el calendario por escrito antes de empezar." },
 ];
 
 export default function ZonaBanyeresPenedesPage() {
@@ -42,9 +43,9 @@ export default function ZonaBanyeresPenedesPage() {
       ]} />
 
       <HeroService
-        title="Reformas en Banyeres del Penedès — Casas y viviendas"
+        title="Reformas en Banyeres del Penedès y Saifores"
         h1Keyword="Reformas en Banyeres del Penedès"
-        subtitle="Reformamos casas en el centre y viviendas en Saifores con equipo propio y precio cerrado. Comarca interior del Baix Penedès con carácter."
+        subtitle="Casas de pueblo, viviendas unifamiliares con jardín y construcciones rurales en el interior del Baix Penedès, a pocos minutos de El Vendrell."
         image="/images/reforma-integral-vivienda-vendrell.webp"
         imageAlt="Vivienda reformada en Banyeres del Penedès"
         badge="Zona de servicio"
@@ -54,14 +55,22 @@ export default function ZonaBanyeresPenedesPage() {
 
       <section className="bg-beige px-5 py-16 md:py-24">
         <div className="mx-auto max-w-[900px]">
-          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Banyeres del Penedès · Interior del Baix Penedès</p>
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Reformas en Banyeres del Penedès y Saifores</h2>
-          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">A 7 km de El Vendrell, entre viñas del Baix Penedès interior.</p>
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Banyeres del Penedès · Baix Penedès</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Reformar una casa en Banyeres del Penedès</h2>
+          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">Municipio de interior entre viñas, con el núcleo de Banyeres, el de Saifores y varias urbanizaciones de casas unifamiliares.</p>
           <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
           <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
-            <p>Banyeres del Penedès es un municipio interior del Baix Penedès, rodeado de viñas y cultivos, con un casco urbano tranquilo y zonas dispersas como Saifores. La población supera los 3.000 habitantes y se mantiene estable durante todo el año, sin la estacionalidad típica de los pueblos costeros.</p>
-            <p>Aquí trabajamos sobre todo en casas familiares de varias plantas y viviendas en parcelas medianas. Son obras que combinan rehabilitación (cubiertas, fachadas, instalaciones) con modernización de espacios interiores. La cultura del vino del Penedès marca también el carácter de muchas viviendas: bodegas familiares, espacios de almacenaje y cocinas amplias.</p>
-            <p>Nuestra sede en El Vendrell está a apenas 7 km, unos diez minutos por la TP-2125. Esa proximidad nos permite incluir Banyeres en nuestro radio habitual de trabajo sin recargos por desplazamiento ni demoras logísticas.</p>
+            <p>Banyeres del Penedès es uno de los municipios de interior más cercanos al Vendrell. Su paisaje es de viña y pequeños núcleos, y su vivienda se reparte entre las casas tradicionales del pueblo y de Saifores, las urbanizaciones de casas unifamiliares que crecieron en las últimas décadas, como el Priorat de Banyeres, y algunas masías y construcciones rurales. Mucha gente se ha instalado aquí buscando una casa con jardín sin alejarse de la costa ni de las vías de comunicación.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Viviendas unifamiliares de urbanización</h3>
+            <p>Son la mayoría de los encargos. Casas de los ochenta, noventa y dos mil, con dos plantas, jardín y a veces piscina, que piden una actualización completa: cocina abierta al salón y al porche, baños nuevos, carpintería exterior eficiente, aislamiento de cubierta y un sistema de climatización mejor que los radiadores eléctricos o la caldera de gasoil originales. Al ser viviendas aisladas, en interior se nota mucho más el frío del invierno que en la costa, y la mejora energética se agradece desde el primer año. Algunas de estas partidas pueden encajar en las <Link href="/blog/ayudas-rehabilitacion-energetica-baix-penedes" className="text-accent font-semibold underline">ayudas a la rehabilitación energética</Link> cuando hay convocatoria abierta.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Casas del pueblo y de Saifores</h3>
+            <p>En los núcleos antiguos hay casas entre medianeras con muros de piedra, forjados de madera y cubiertas de teja. Como en <Link href="/zonas/reformas-arboc" className="text-accent font-semibold underline">L&apos;Arboç</Link>, la obra empieza revisando la estructura y la humedad de la planta baja, y busca conservar los elementos con carácter mientras se renuevan instalaciones.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Masías y construcciones rurales</h3>
+            <p>Cuando la vivienda está en suelo no urbanizable, las posibilidades de ampliar o cambiar el uso están muy limitadas por la normativa urbanística. Antes de comprar o de plantear una reforma importante, conviene comprobarlo con el Ajuntament y con un técnico.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Permisos y plazos</h3>
+            <p>El Ajuntament de Banyeres del Penedès tramita las obras menores mediante comunicación previa y las mayores con licencia y proyecto. Desde nuestra oficina en El Vendrell tardamos menos de un cuarto de hora en llegar, lo que nos permite seguir la obra de cerca. Para ver cómo encaramos una renovación completa, visita <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reformas integrales</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Planificar con tiempo</h3>
+            <p>En interior el invierno es más frío y húmedo de noche que en la costa, así que las obras que dejan la casa abierta, como cambiar ventanas o rehacer la cubierta, conviene programarlas en primavera u otoño. Las interiores, como cocina o baños, se pueden hacer en cualquier época.</p>
           </div>
         </div>
       </section>
@@ -70,7 +79,7 @@ export default function ZonaBanyeresPenedesPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-12">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Servicios</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Reformas en Banyeres y Saifores</h2>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Qué reformamos en Banyeres del Penedès</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((s) => (
@@ -87,8 +96,8 @@ export default function ZonaBanyeresPenedesPage() {
       <section className="bg-beige-warm px-5 py-16 md:py-24">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-12">
-            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">FAQ</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Reformas en Banyeres: lo que conviene saber</h2>
+            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Dudas habituales</p>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Preguntas sobre reformas en Banyeres del Penedès</h2>
           </div>
           <div className="space-y-5">
             {faqs.map((faq) => (
@@ -126,8 +135,8 @@ export default function ZonaBanyeresPenedesPage() {
 
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Reformas en Banyeres del Penedès?</h2>
-          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Te visitamos sin coste y te entregamos una valoración detallada por partidas. Sin sorpresas durante la obra.</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Tienes una casa en Banyeres o Saifores?</h2>
+          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Te visitamos sin coste y te proponemos una reforma a la medida de la casa y del presupuesto, por escrito.</p>
           <CTAButtons className="justify-center" />
         </div>
       </section>

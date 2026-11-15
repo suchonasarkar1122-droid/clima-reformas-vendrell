@@ -6,14 +6,14 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Sobre Clima Reformas Vendrell · Quiénes somos",
+  title: "Quiénes somos · Reformas en El Vendrell",
   description:
-    "Quiénes somos: 15 años reformando pisos costeros, casas de pueblo y segundas residencias en El Vendrell, Coma-ruga, Sant Salvador y todo el Baix Penedès. Equipo propio.",
+    "Empresa de reformas con oficina en El Vendrell y equipo propio: cómo trabajamos, quién estará en tu obra y por qué nos centramos en el Baix Penedès.",
   alternates: { canonical: "/sobre-nosotros" },
   openGraph: {
-    title: "Sobre Nosotros - Clima Reformas Vendrell",
+    title: "Quiénes somos · Clima Reformas Vendrell",
     description:
-      "Empresa local con equipo propio especializada en reformas residenciales en el Baix Penedès.",
+      "Equipo de reformas con base en El Vendrell, centrado en viviendas y locales del Baix Penedès.",
     url: "/sobre-nosotros",
     images: ["/images/equipo-profesional-reformas-vendrell.webp"],
   },
@@ -26,9 +26,9 @@ const values = [
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
       </svg>
     ),
-    title: "Cercanía",
+    title: "Cerca de la obra",
     description:
-      "Estamos en la calle Apel·les Fenosa, a cinco minutos del centro de El Vendrell y a quince del paseo de Coma-ruga. Cuando algo necesita un ajuste rápido, no perdemos un día entero en desplazamientos.",
+      "La oficina está en la calle Apel·les Fenosa, en el propio Vendrell. Del centro a la playa de Coma-ruga hay un trayecto corto, así que pasar por la obra para revisar un detalle no cuesta un día de desplazamientos.",
   },
   {
     icon: (
@@ -36,9 +36,9 @@ const values = [
         <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
       </svg>
     ),
-    title: "Oficio antiguo, técnica actual",
+    title: "Conocer la casa antes de opinar",
     description:
-      "Conocemos los pisos años 70-80 de la primera línea de Sant Salvador, las casas de pueblo del Centre con sus suelos hidráulicos y las segundas residencias que llevan décadas pidiendo una renovación seria.",
+      "Un apartamento de playa de los setenta, una casa entre medianeras del casco antiguo y un adosado de urbanización fallan por sitios distintos. Diagnosticamos primero y proponemos después.",
   },
   {
     icon: (
@@ -47,9 +47,9 @@ const values = [
         <path d="M12 6v6l4 2" />
       </svg>
     ),
-    title: "Plazos firmes",
+    title: "Fechas por escrito",
     description:
-      "Cada obra tiene un calendario por fases que respetamos. Si tu segunda residencia tiene que estar lista para un alquiler de verano o Semana Santa, nos lo decimos al firmar y no improvisamos.",
+      "Antes de empezar dejamos un calendario por fases. Si la vivienda tiene que estar lista para una fecha concreta, como Semana Santa o el inicio del verano, se planifica desde ahí.",
   },
   {
     icon: (
@@ -57,9 +57,9 @@ const values = [
         <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "Materiales que duran junto al mar",
+    title: "Materiales para este clima",
     description:
-      "Porcelánicos antideslizantes, carpinterías con rotura de puente térmico, herrajes inox, maderas tratadas. La humedad marina del Mediterráneo no perdona los atajos: usamos materiales pensados para ella.",
+      "La humedad y el salitre de la costa estropean pronto herrajes, pinturas y carpinterías de baja calidad. Elegimos productos que aguantan ese ambiente y te explicamos por qué.",
   },
 ];
 
@@ -73,9 +73,9 @@ export default function SobreNosotrosPage() {
 
       {/* ============ HERO ============ */}
       <HeroService
-        title="Quiénes están detrás de tu reforma"
+        title="Las personas que harán tu reforma"
         h1Keyword="Sobre Nosotros"
-        subtitle="Empresa local del Baix Penedès con equipo propio. Quince años aprendiendo cómo se reforma bien junto al mar: humedad, sal, segundas residencias y casas de pueblo con su propia personalidad."
+        subtitle="Una empresa de reformas con oficina en El Vendrell, equipo propio y un ámbito de trabajo deliberadamente pequeño: el municipio y los pueblos que lo rodean."
         image="/images/equipo-profesional-reformas-vendrell.webp"
         imageAlt="Equipo profesional de Clima Reformas Vendrell"
         badge="Clima Reformas Vendrell"
@@ -88,20 +88,20 @@ export default function SobreNosotrosPage() {
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
             <div className="flex-1 flex flex-col gap-6 order-2 lg:order-1">
               <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">
-                De dónde venimos
+                Quiénes somos
               </p>
               <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.05]">
-                Empresa de reformas en El Vendrell desde hace 15 años
+                Una empresa de reformas del Vendrell, para el Vendrell
               </h2>
               <div className="w-16 h-[3px] bg-accent rounded-full" />
               <p className="font-body text-subtitle text-base leading-relaxed">
-                Empezamos hace quince años haciendo pequeños arreglos en pisos de Coma-ruga y casas familiares del centro de El Vendrell. Con el tiempo el equipo creció, los proyectos se hicieron más completos y acabamos especializándonos en la reforma integral residencial: pisos costeros, casas de pueblo y segundas residencias de toda la franja del Baix Penedès.
+                Clima Reformas Vendrell nació de trabajos pequeños: arreglar un baño que filtraba en un piso de Coma-ruga, cambiar la cocina de una casa del centro, poner al día la instalación eléctrica de un apartamento que llevaba décadas sin tocarse. De ahí pasamos a encargos cada vez más completos, hasta centrarnos en lo que hoy es nuestro trabajo principal: reformas integrales y por estancias de viviendas y locales en El Vendrell y su entorno.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed">
-                Hoy somos un equipo estable: albañiles, fontaneros, electricistas y carpinteros que trabajan juntos desde hace años. Apostamos por la coordinación interna porque hemos visto demasiadas obras desordenadas cuando cada gremio responde a un jefe distinto. Hay un responsable de obra y un teléfono al que llamar.
+                Decidimos no crecer hacia fuera. Preferimos trabajar en un radio que podamos recorrer varias veces al día, con un equipo estable de albañiles, fontaneros, electricistas y carpinteros acostumbrados a trabajar juntos. Esa forma de organizarnos tiene una consecuencia práctica para ti: hay una persona responsable de tu obra, que conoce cada partida y que es la que contesta cuando llamas.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed">
-                Conocemos las particularidades de cada zona: los pisos de los años 70 frente a la playa con sus problemas de aluminosis y humedades, las viviendas de Sant Salvador y El Mas Borràs, las casas con paredes de tapial del Centre histórico, los chalets de El Tancat. Llegamos con un diagnóstico realista y soluciones probadas.
+                Trabajar siempre en la misma zona también nos ha enseñado sus particularidades. Sabemos qué pasa en los techos de los apartamentos de primera línea después de un invierno cerrados, cómo suelen estar las vigas de las casas antiguas del casco histórico, qué piden las comunidades de vecinos de Sant Salvador en verano o qué dificultades tienen los adosados de las urbanizaciones con el frío. Ese conocimiento es lo que nos permite presupuestar con realismo.
               </p>
               <CTAButtons />
             </div>
@@ -128,10 +128,10 @@ export default function SobreNosotrosPage() {
               Cómo entendemos el oficio
             </p>
             <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05] mb-5">
-              Por qué elegir Clima Reformas Vendrell
+              Cuatro compromisos que aplicamos en cada obra
             </h2>
             <p className="font-body text-white/55 text-base max-w-[560px] mx-auto">
-              Cuatro principios no negociables que nos diferencian de las grandes constructoras y de los autónomos sueltos: tamaño justo y compromiso constante con la calidad y la palabra dada.
+              Somos una empresa de tamaño medio: suficientemente grande para llevar una reforma completa con equipo propio y suficientemente pequeña para conocer cada obra por su nombre.
             </p>
           </div>
 
@@ -164,10 +164,10 @@ export default function SobreNosotrosPage() {
               Quién va a estar en tu casa
             </p>
             <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05] mb-5">
-              El equipo de Clima Reformas Vendrell
+              Cómo se reparte el trabajo en el equipo
             </h2>
             <p className="font-body text-subtitle text-base max-w-[600px] mx-auto">
-              Todos viven en el Baix Penedès. Algunos crecieron entre las viñas del Penedès, otros se mudaron desde Tarragona hace años. Todos hablan catalán y castellano, y conocen bien el ayuntamiento de El Vendrell y los procedimientos del SUMA.
+              El equipo vive en la comarca y trabaja en catalán y castellano. Conocemos los trámites de obra del Ajuntament del Vendrell y de los ayuntamientos vecinos, y a los proveedores de la zona.
             </p>
           </div>
 
@@ -175,18 +175,18 @@ export default function SobreNosotrosPage() {
             {[
               {
                 name: "Coordinación de obra",
-                role: "Visita técnica y dirección",
-                desc: "Es la persona que recorre tu vivienda en la primera visita, levanta el dossier técnico y firma contigo el cronograma. Te atiende durante la obra para resolver dudas o aprobar cambios cuando sea necesario.",
+                role: "Diagnóstico, presupuesto y seguimiento",
+                desc: "Hace la primera visita, prepara el presupuesto por partidas y el calendario, y es tu interlocutor hasta la entrega. Si hay que decidir algo durante la obra, te lo plantea con opciones y precio.",
               },
               {
                 name: "Ejecución",
                 role: "Albañilería, instalaciones y carpintería",
-                desc: "Equipo profesional con experiencia específica en pisos antiguos de la costa: detección y corrección de humedades, refuerzo de forjados, sustitución de instalaciones obsoletas, sellados resistentes a la sal marina.",
+                desc: "Los oficios que trabajan en tu vivienda. Están acostumbrados a pisos antiguos de costa y casas de pueblo: humedades, forjados que hay que revisar, instalaciones obsoletas y materiales que deben resistir el ambiente marino.",
               },
               {
-                name: "Acabados y diseño",
-                role: "Selección de materiales e interiorismo",
-                desc: "Te acompaña a los proveedores de la zona (Tarragona, Vilafranca) para elegir cerámicas, encimeras, mobiliario de baño y carpinterías. Sin presión: orientamos para que tomes decisiones informadas según presupuesto y uso real de la vivienda.",
+                name: "Acabados y materiales",
+                role: "Selección y propuesta",
+                desc: "Te ayuda a escoger revestimientos, sanitarios, encimeras y carpinterías, con muestras o visitando exposiciones de la zona. La idea es que decidas sabiendo cómo se comporta cada material y cuánto cuesta.",
               },
             ].map((member) => (
               <div
@@ -211,6 +211,21 @@ export default function SobreNosotrosPage() {
               </div>
             ))}
           </div>
+
+          <div className="max-w-[860px] mx-auto mt-16 space-y-5 font-body text-subtitle text-base leading-relaxed">
+            <h3 className="font-body font-bold text-dark text-xl">Si no vives en El Vendrell</h3>
+            <p>
+              Una parte importante de nuestros clientes tiene aquí su segunda residencia y vive fuera de la comarca durante buena parte del año. Para ellos organizamos la obra de forma que solo tengan que venir dos veces: a revisar la propuesta y a la entrega. Entre medias, enviamos fotos al cerrar cada fase, consultamos cualquier cambio antes de hacerlo y coordinamos con la comunidad de vecinos el acceso al edificio. Si te encaja esa forma de trabajar, empieza por ver qué hacemos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link>.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">Dónde trabajamos</h3>
+            <p>
+              Además de todo el término del Vendrell, atendemos los municipios vecinos: hacia la costa, <Link href="/zonas/reformas-cunit" className="text-accent font-semibold underline">Cunit</Link> y <Link href="/zonas/reformas-roda-de-bera" className="text-accent font-semibold underline">Roda de Berà</Link>; hacia el interior, L&apos;Arboç, Banyeres del Penedès y otros pueblos cercanos. Tienes el detalle en la página de <Link href="/zonas" className="text-accent font-semibold underline">zonas de trabajo</Link>.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">Lo que no hacemos</h3>
+            <p>
+              No subcontratamos la obra entera a terceros ni damos precios cerrados sin haber visto la vivienda. Tampoco empezamos una obra que necesita permiso antes de tenerlo tramitado. Preferimos explicarte por qué un plazo es el que es a prometer uno que no se puede cumplir.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -218,10 +233,10 @@ export default function SobreNosotrosPage() {
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
           <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">
-            Solicita presupuesto para tu reforma
+            ¿Nos conocemos en tu casa?
           </h2>
           <p className="text-white/90 text-base md:text-lg max-w-[520px]">
-            Reservar una visita es gratis y no compromete a nada. Vemos el estado real, escuchamos tus prioridades y te decimos si encajamos. Familias del Baix Penedès ya nos han confiado su reforma.
+            La primera visita es gratuita y sin compromiso. Vemos la vivienda, escuchamos lo que quieres hacer y te decimos con franqueza si somos el equipo adecuado.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">
             <Link

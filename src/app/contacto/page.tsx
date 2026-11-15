@@ -1,13 +1,13 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import dynamic from "next/dynamic";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 const CTAForm = dynamic(() => import("@/components/CTAForm"));
 
 export const metadata: Metadata = {
-  title: "Contacto y Presupuesto Gratis · Clima Reformas Vendrell",
+  title: "Contacto y Presupuesto Gratis",
   description:
-    "Contacta con Clima Reformas Vendrell. Valoración gratuita para reformas de pisos costeros, casas de pueblo y locales en El Vendrell. Llama al 877 278 163.",
+    "Pide una visita sin coste para tu reforma en El Vendrell: teléfono 877 278 163, WhatsApp o formulario. Oficina en la calle Apel·les Fenosa, 16.",
   alternates: { canonical: "/contacto" },
   openGraph: {
     title: "Contacto · Clima Reformas Vendrell",
@@ -37,7 +37,7 @@ export default function ContactoPage() {
             Contacta con Clima Reformas Vendrell
           </h1>
           <p className="text-white/65 text-base md:text-lg mt-4 max-w-[560px]">
-            Cuéntanos qué tienes pensado y te enviaremos una valoración a medida para tu vivienda en El Vendrell o el resto del Baix Penedès. Sin coste, sin obligación.
+            Llámanos, escríbenos por WhatsApp o deja tus datos en el formulario. Te respondemos en horario laboral para concretar una visita a la vivienda.
           </p>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function ContactoPage() {
                 Solicita presupuesto para tu reforma
               </h2>
               <p className="font-body text-subtitle text-base mb-8">
-                Pide tu valoración a medida. Comparte los datos que ya tengas: superficie, estancias a renovar, plazo aproximado y zona. Cuanto más concreto, más preciso será el primer presupuesto que te enviemos.
+                Con unos pocos datos nos hacemos una primera idea: dónde está la vivienda, qué estancias quieres cambiar, metros aproximados y para cuándo te gustaría tenerlo. Si tienes fotos o un plano, puedes enviárnoslos después por WhatsApp.
               </p>
 
               <div className="bg-accent rounded-[16px] p-6 md:p-10">
@@ -163,6 +163,22 @@ export default function ContactoPage() {
         </div>
       </section>
 
+      {/* ============ QUÉ PASA DESPUÉS ============ */}
+      <section className="bg-beige px-5 pb-16 md:pb-20">
+        <div className="mx-auto max-w-[900px] space-y-5 font-body text-subtitle text-base leading-relaxed">
+          <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark leading-[1.1]">Qué pasa después de contactarnos</h2>
+          <p>
+            Primero te llamamos para entender el encargo: si se trata de un baño, de una cocina, de un piso entero o de un local, y en qué estado está. Con esa información fijamos una visita en la vivienda, en El Vendrell o en el municipio cercano donde esté, en el día y la hora que te vaya bien. Si no vives aquí, podemos quedar con quien tenga las llaves y hacer la explicación por teléfono o videollamada.
+          </p>
+          <p>
+            En la visita revisamos instalaciones, humedades y medidas, y hablamos de lo que quieres conseguir. Después preparamos un presupuesto por escrito, separado por partidas, con los materiales propuestos y un calendario orientativo. Lo puedes estudiar con calma y pedirnos cambios; la visita y el presupuesto no te obligan a nada.
+          </p>
+          <p>
+            Para que la primera conversación sea más útil, ten a mano, si puedes, unas fotos de las estancias, la superficie aproximada y cualquier dato del edificio que conozcas: año de construcción, si hay ascensor o si la comunidad tiene normas para obras en verano.
+          </p>
+        </div>
+      </section>
+
       {/* ============ MAP ============ */}
       <section className="bg-beige-warm px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[1200px]">
@@ -172,7 +188,7 @@ export default function ContactoPage() {
               Oficina de Clima Reformas Vendrell en El Vendrell
             </h2>
             <p className="font-body text-subtitle text-base mt-3 max-w-[560px] mx-auto">
-              En el centro de El Vendrell, a tu disposición de lunes a sábado.
+              Estamos en la calle Apel·les Fenosa, 16. Si quieres pasar por la oficina, llámanos antes para asegurarte de que haya alguien.
             </p>
           </div>
           <div className="rounded-[20px] overflow-hidden border border-dark/10 shadow-lg">

@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,13 +7,13 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Baños en El Vendrell | CRV",
+  title: "Reformas de Baños en El Vendrell",
   description:
-    "Reforma de baños en El Vendrell: sustitución de bañera por plato de obra, mampara fija, suelos antideslizantes y materiales antihumedad. Presupuesto gratis.",
+    "Reforma de baños en El Vendrell: de bañera a ducha, impermeabilización bajo el alicatado y ventilación contra el moho en pisos de playa y casas del Centre.",
   alternates: { canonical: "/servicios/reformas-banos" },
   openGraph: {
-    title: "Tu Reforma de Baño en El Vendrell: Diseño, Confort y Calidad",
-    description: "Sustitución de bañera por ducha, mamparas fijas y materiales antideslizantes en pisos costeros del Baix Penedès.",
+    title: "Reforma de baños en El Vendrell",
+    description: "Cambio de bañera por ducha, impermeabilización y ventilación para baños de pisos de costa y casas del Baix Penedès.",
     url: "/servicios/reformas-banos",
     images: ["/images/bano-natural-reformado-vendrell.webp"],
   },
@@ -29,11 +29,11 @@ export default function ReformasBanosPage() {
       ]} />
       <ServiceSchema
         name="Reformas de Baños en El Vendrell"
-        description="Reforma integral de baños en pisos costeros y casas de pueblo del Baix Penedès. Sustitución de bañera por plato de obra y mampara fija."
+        description="Reforma de baños en pisos de costa, casas de pueblo y adosados de El Vendrell: cambio de bañera por ducha, impermeabilización y ventilación mecánica."
         url="/servicios/reformas-banos"
         image="/images/bano-natural-reformado-vendrell.webp"
       />
-      <HeroService title="Tu Reforma de Baño en El Vendrell: Diseño, Confort y Calidad" subtitle="Sustitución de bañera por plato de obra, mampara fija, suelos antideslizantes y materiales pensados para la humedad costera. Bienestar real en tu piso o casa del Baix Penedès." image="/images/bano-natural-reformado-vendrell.webp" imageAlt="Baño moderno reformado en El Vendrell" imageTitle="Reforma de baños en El Vendrell - Clima Reformas Vendrell" h1Keyword="Reformas de baños en El Vendrell" badge="Baños actuales" showCTA trustItems={["Cambio bañera por ducha", "Impermeabilización de obra", "Acabados duraderos"]} tall />
+      <HeroService title="Un baño que no vuelva a coger moho ni a filtrar al vecino" subtitle="Quitamos la bañera que ya nadie usa, impermeabilizamos lo que queda oculto y elegimos acabados fáciles de limpiar. Pensado para pisos de playa, casas del Centre y adosados." image="/images/bano-natural-reformado-vendrell.webp" imageAlt="Baño moderno reformado en El Vendrell" imageTitle="Reforma de baños en El Vendrell - Clima Reformas Vendrell" h1Keyword="Reformas de baños en El Vendrell" badge="Baños actuales" showCTA trustItems={["Cambio bañera por ducha", "Impermeabilización de obra", "Acabados duraderos"]} tall />
 
       <section className="bg-beige px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px]">
@@ -41,16 +41,16 @@ export default function ReformasBanosPage() {
             <div className="flex-1 min-w-[300px] flex flex-col justify-center gap-6 py-6">
               <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Reforma de baños</p>
               <h2 className="font-display font-extrabold text-[36px] md:text-[48px] text-dark leading-[1.05]">
-                Reforma de baño en El Vendrell con impermeabilización
+                Lo importante de un baño está debajo del azulejo
               </h2>
               <div className="w-16 h-[3px] bg-accent rounded-full" />
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                En la costa del Baix Penedès, los baños son la pieza más castigada de la vivienda: humedad ambiente alta casi todo el año, ventilación pobre en pisos sin patio, agua dura del Mediterráneo y baños que en muchas segundas residencias no se han tocado desde los 80. Antes de pensar en sanitarios o griferías, lo que decide la durabilidad es lo que no se ve.
+                Muchos baños de la zona tienen la misma historia: se alicataron en los setenta u ochenta, se cambió algún sanitario por el camino y nadie tocó lo que va por dentro. El resultado son juntas negras que vuelven a salir por mucho que se limpien, una mancha en el techo del vecino de abajo y un desagüe lento que huele cuando el piso pasa semanas cerrado. Cambiar solo las piezas visibles no arregla nada de eso.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Cada reforma de baño que hacemos en El Vendrell empieza por demolición a hueso, revisión de bajantes y desagües, sustitución de tuberías de plomo o hierro si aún las tiene la finca, lámina impermeabilizante en zona de ducha hasta 1,80 m de altura, y enfoscado maestreado antes del alicatado. Solo después llegan los acabados. Es la única manera de que un baño aguante 15 años sin retoques.
+                Por eso en El Vendrell empezamos casi siempre desmontando hasta la obra. Revisamos el tramo de bajante al que acomete el baño, cambiamos tuberías viejas de hierro o plomo si las hay, colocamos una lámina impermeable en el suelo y en las paredes de la ducha, regularizamos las paredes y, entonces sí, alicatamos. Es un trabajo que no luce en la foto final, pero es el que hace que el baño siga sano dentro de muchos años.
               </p>
-              <p className="font-body font-semibold text-dark text-base">Impermeabilización de obra ejecutada con criterio: lámina, sellados y juntas pensadas para que el baño aguante años sin retoques.</p>
+              <p className="font-body font-semibold text-dark text-base">La impermeabilización la hace nuestro propio equipo y la comprobamos con agua antes de cerrar.</p>
               <CTAButtons />
             </div>
             <div className="flex-1 min-w-[300px] min-h-[500px] lg:min-h-[600px] relative rounded-[20px] overflow-hidden">
@@ -64,15 +64,15 @@ export default function ReformasBanosPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Capa por capa</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Cómo impermeabilizamos tu reforma de baño</h2>
-            <p className="font-body text-white/55 text-base md:text-lg max-w-[560px] mx-auto mt-4">Capa por capa: el sistema con el que protegemos los baños costeros del Baix Penedès.</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">El sistema que usamos contra el agua y la humedad</h2>
+            <p className="font-body text-white/55 text-base md:text-lg max-w-[560px] mx-auto mt-4">Cuatro decisiones técnicas que marcan la diferencia en un baño cerca del mar.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { title: "Lámina impermeabilizante en ducha", text: "Membrana flexible aplicada antes del alicatado, subiendo hasta 1,80 m en muros de la zona de ducha. Es lo que evita que el agua se filtre a la habitación de al lado o al piso de abajo cuando una junta envejezca con los años." },
-              { title: "Mortero hidrófugo y juntas epoxi", text: "Mortero de agarre hidrófugo bajo el plato y en zonas húmedas. Las juntas epoxi en la ducha no se ennegrecen ni absorben agua, a diferencia del cemento gris tradicional. Diferencia visible al tercer año de uso intensivo." },
-              { title: "Pendientes y desagüe sifónico", text: "Pendiente mínima del 2% hacia el desagüe lineal o central, con sifón de carga hidráulica que impide olores ascendentes desde la bajante. En segundas residencias cerradas semanas, esto importa mucho." },
-              { title: "Ventilación con sensor de humedad", text: "Extractor mecánico con detector que se activa solo al subir la humedad y mantiene el baño aireado los minutos justos tras la ducha. Adiós al moho perimetral de los baños sin ventana, muy habituales en pisos compactos del Centre." },
+              { title: "Lámina en suelo y paredes de ducha", text: "Una membrana continua bajo el revestimiento, con refuerzos en esquinas y en el desagüe. Si dentro de unos años una junta se abre, el agua no pasa al forjado ni a la habitación contigua." },
+              { title: "Juntas que no absorben", text: "En la zona de ducha usamos material de rejuntado de alta resistencia en lugar del cemento de toda la vida, que se ennegrece y chupa agua. El cambio se nota al cabo de un par de inviernos." },
+              { title: "Pendiente y sifón bien resueltos", text: "El plato o el suelo de la ducha llevan la caída justa hacia el sumidero y un sifón que mantiene el cierre de agua. En pisos que se quedan cerrados entre temporadas evita que suban olores de la bajante." },
+              { title: "Extracción que se activa sola", text: "En los baños interiores sin ventana, tan frecuentes en bloques de playa y casas estrechas, colocamos un extractor con sensor de humedad que funciona después de la ducha y se apaga cuando el aire ya está seco." },
             ].map((b) => (
               <div key={b.title} className="flex gap-5 bg-white/5 border border-white/10 rounded-[16px] p-7">
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
@@ -92,22 +92,31 @@ export default function ReformasBanosPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Tipos de baño</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Lo que más nos piden en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Los encargos más habituales en el municipio</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Cambio de bañera por ducha", text: "La intervención más recurrente en pisos de Coma-ruga, Sant Salvador y el Centre. Se retira la bañera, se impermeabiliza la zona, se coloca plato de resina o porcelánico continuo y mampara fija de cristal templado. Entre 7 y 10 días de obra." },
-              { title: "Baño accesible para mayores", text: "Suelo continuo sin escalones ni cambios de cota, asiento abatible, barras de apoyo cromadas y grifería termostática para evitar quemaduras. Frecuente en pisos del Centre con dos generaciones viviendo juntas." },
-              { title: "Suite con baño en master", text: "En chalets de El Tancat, El Mas Borràs o segundas residencias amplias creamos baños en suite con doble lavabo, ducha de obra grande y, si hay sitio, bañera exenta. La distribución se gana abriendo armario o redistribuyendo dormitorio." },
-              { title: "Aseo de cortesía en hueco recuperado", text: "Bajo escalera, en pasillo ancho o aprovechando un trastero pequeño. Sanitario suspendido, mueble lavabo a medida y luz indirecta. Suma valor a casas de pueblo de la zona vieja sin restar metros útiles." },
-              { title: "Baño wellness con piedra y madera", text: "Travertino, microcemento en tonos arena y madera de teca tratada. Para clientes que tratan su segunda residencia como refugio de fin de semana y quieren entrar al baño y desconectar del ritmo de Barcelona o Tarragona." },
-              { title: "Baño de uso intensivo para alquiler", text: "Porcelánico de gran formato (menos juntas, menos limpieza), grifería de cuerpo macizo, mampara abatible y sanitario suspendido para barrer fácil. Pensado para apartamentos turísticos de Coma-ruga con rotación alta en verano." },
+              { title: "Bañera fuera, ducha a ras de suelo", text: "Es lo que más hacemos en los apartamentos de Coma-ruga y Sant Salvador. Retiramos la bañera, impermeabilizamos, colocamos un plato extraplano o un suelo continuo y una mampara fija. En unos 7 a 10 días laborables el baño vuelve a estar en uso." },
+              { title: "Baño cómodo para personas mayores", text: "Sin escalón para entrar en la ducha, con asiento plegable, barras bien ancladas y grifo termostático. Muy pedido por familias del Centre que cuidan de padres o abuelos en casa." },
+              { title: "Baño en suite en el dormitorio principal", text: "En chalets de El Tancat o Mas Borràs a veces se puede ganar un segundo baño a costa de un armario o reorganizando el dormitorio. Doble lavabo y ducha amplia son las peticiones más repetidas." },
+              { title: "Aseo nuevo en un hueco aprovechado", text: "Bajo la escalera de una casa de pueblo o al final de un pasillo largo. Inodoro suspendido, lavamanos pequeño y buena extracción bastan para sumar comodidad sin perder metros." },
+              { title: "Baño cálido de materiales naturales", text: "Tonos arena, microcemento, madera tratada para zonas húmedas y luz indirecta. Para quien usa el piso de la playa como refugio de fin de semana y quiere un baño que invite a quedarse." },
+              { title: "Baño resistente para alquiler de temporada", text: "Piezas grandes con pocas juntas, grifería robusta, mampara fácil de limpiar y sanitarios suspendidos. Pensado para aguantar muchos huéspedes en verano con el mínimo mantenimiento." },
             ].map((b) => (
               <div key={b.title} className="bg-white rounded-[16px] p-7 flex flex-col gap-3 shadow-sm">
                 <h3 className="font-body font-bold text-dark text-lg">{b.title}</h3>
                 <p className="font-body text-subtitle text-sm leading-relaxed">{b.text}</p>
               </div>
             ))}
+          </div>
+          <div className="max-w-[860px] mx-auto mt-14 space-y-5 font-body text-subtitle text-base leading-relaxed">
+            <h3 className="font-body font-bold text-dark text-xl">Baños de segundas residencias: el problema del piso cerrado</h3>
+            <p>
+              Un baño que se usa a diario se ventila solo. Uno que pasa el invierno con la puerta cerrada y la persiana bajada, no. En los pisos de veraneo del frente marítimo la humedad del aire se condensa en las paredes frías y el moho aparece en techos y silicona aunque nadie se haya duchado en meses. Lo explicamos con más detalle en la guía sobre <Link href="/blog/humedad-condensacion-pisos-playa-invierno" className="text-accent font-semibold underline">humedad y condensación en pisos de playa durante el invierno</Link>, con lo que puedes hacer tú y lo que conviene resolver en obra.
+            </p>
+            <p>
+              Si el baño forma parte de una renovación mayor, la página de <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link> explica cómo encadenamos baño, cocina y suelos para no hacer dos veces la misma obra. También reformamos baños en la costa cercana, por ejemplo en los apartamentos de <Link href="/zonas/reformas-cunit" className="text-accent font-semibold underline">Cunit</Link>.
+            </p>
           </div>
         </div>
       </section>
@@ -116,15 +125,15 @@ export default function ReformasBanosPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Proceso</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Nuestro proceso de reforma de baño paso a paso</h2>
-            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">De baño viejo a baño firmado en cuatro fases coordinadas.</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Cómo trabajamos un baño, de principio a fin</h2>
+            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Cuatro pasos y un calendario que conoces antes de empezar.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", title: "Visita y diagnóstico", text: "Inspeccionamos bajantes, presión de agua, ventilación natural y estado del solado. Detectamos si hay humedad por capilaridad o filtración antigua antes de presupuestar." },
-              { step: "02", title: "Materiales sobre la mesa", text: "Selección de azulejos, sanitarios suspendidos, grifería empotrada o monomando y plato de ducha. Te llevamos a showroom en Tarragona o Vilafranca si quieres tocarlo todo en persona." },
-              { step: "03", title: "Demolición e impermeabilización", text: "Retirada controlada de azulejos, plato y sanitarios, sustitución de instalaciones, lámina impermeabilizante y maestreado de paredes. La obra sucia ya está hecha." },
-              { step: "04", title: "Acabados y entrega", text: "Alicatado con juntas finas, montaje de sanitarios y mampara, prueba de estanqueidad de la ducha, limpieza profesional y entrega con la documentación correspondiente." },
+              { step: "01", title: "Revisión previa", text: "Miramos de dónde viene la humedad si la hay, el estado de la bajante, la presión del agua y si el baño tiene ventilación natural. Con eso sabemos qué hay que incluir en el presupuesto." },
+              { step: "02", title: "Elección de piezas", text: "Revestimiento, plato o suelo continuo, sanitarios, grifería y mampara. Puedes verlo en exposición con nosotros o decidir a partir de muestras y fichas." },
+              { step: "03", title: "Obra gruesa", text: "Desmontaje, retirada de escombro, nuevas tomas de agua y desagüe, lámina impermeable y paredes listas para revestir. Es la fase más ruidosa y la más corta." },
+              { step: "04", title: "Acabado y prueba", text: "Alicatado, montaje de sanitarios y mampara, prueba de estanqueidad, limpieza y entrega con las fichas de los productos instalados." },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-[16px] p-7 flex flex-col gap-4 shadow-sm">
                 <span className="font-display font-extrabold text-[48px] text-accent/20 leading-none">{s.step}</span>
@@ -140,15 +149,15 @@ export default function ReformasBanosPage() {
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Preguntas frecuentes</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">FAQ — Reforma de baño en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Dudas sobre reformar un baño en El Vendrell</h2>
           </div>
           <div className="flex flex-col gap-4">
             {[
-              { q: "¿Cuánto cuesta una reforma de baño en El Vendrell?", a: "Trabajamos con tres rangos orientativos por metro cuadrado: línea funcional (cambio de bañera por ducha y acabados estándar) desde 520 €/m², línea media con sanitarios suspendidos y porcelánico de gran formato desde 680 €/m², y línea wellness con piedra natural, suelo radiante y bañera exenta desde 880 €/m². Cada baño se valora en visita técnica con detalle por partidas. Sin sorpresas." },
-              { q: "¿Hace falta licencia del Ayuntamiento de El Vendrell para reformar un baño?", a: "Si solo cambias revestimientos, sanitarios y mampara sin tocar bajantes ni mover el baño de sitio, basta con una comunicación previa de obra menor, que tramitamos nosotros. Si cambias la ubicación del inodoro o el plato (afecta saneamiento general del edificio), el Ayuntamiento de El Vendrell pide una declaración responsable con memoria técnica. Si tu vivienda es del Centre histórico, conviene consultar antes por las normas específicas del casco antiguo." },
-              { q: "¿Cuántos días estoy sin baño?", a: "Un cambio de bañera por ducha lo completamos en 7-10 días laborables. Una reforma integral de baño tipo medio: 12-18 días. Si en tu vivienda hay un segundo baño usable, planificamos para que siempre tengas uno disponible. En segundas residencias cerradas, ejecutamos la obra en bloque para que llegues con todo terminado." },
-              { q: "¿Cómo evitáis que el moho vuelva a aparecer en un baño costero?", a: "Tres factores combinados: ventilación mecánica con sensor de humedad, juntas epoxi en zona de ducha (no absorben agua) y porcelánico de gran formato para reducir el número de juntas. En baños sin ventana exterior, muy comunes en pisos compactos del Centre o de Coma-ruga, esto cambia totalmente la durabilidad del acabado." },
-              { q: "¿Cómo aseguráis la impermeabilización del baño?", a: "Aplicamos lámina impermeabilizante en zona de ducha hasta 1,80 m, mortero hidrófugo bajo plato y sellado perimetral cuidado. Estas tareas críticas las ejecuta personal del propio equipo con experiencia, no se delegan a la ligera. Cubrimos los plazos legales de garantía y, si surge cualquier ajuste dentro de ellos, volvemos sin discusión." },
+              { q: "¿Cuánto puede costar reformar el baño?", a: "Trabajamos con tres tramos orientativos por metro cuadrado: funcional, con cambio de bañera por ducha y acabados sencillos, desde 520 €/m²; intermedio, con sanitarios suspendidos y piezas de gran formato, desde 680 €/m²; y alto, con piedra natural, suelo radiante o bañera exenta, desde 880 €/m². El presupuesto definitivo lo cerramos después de ver el baño." },
+              { q: "¿Hay que pedir permiso al Ajuntament del Vendrell?", a: "Si se sustituyen revestimientos y sanitarios sin mover el baño de sitio, normalmente basta una comunicación previa, que preparamos nosotros. Si se cambia la posición del inodoro o la ducha y eso afecta a la red general del edificio, puede hacer falta documentación técnica. En casas del casco antiguo conviene consultarlo antes." },
+              { q: "¿Cuántos días me quedo sin baño?", a: "Cambiar la bañera por una ducha nos lleva de 7 a 10 días laborables; una reforma completa de baño de tamaño medio, entre 12 y 18. Si la casa tiene un segundo baño, organizamos la obra para que siempre podáis usar uno." },
+              { q: "¿Cómo evitáis que vuelva a salir moho?", a: "Combinando ventilación mecánica con sensor, juntas que no absorben agua en la zona de ducha y piezas grandes para reducir el número de juntas. En baños interiores sin ventana, que abundan en pisos compactos, es lo que más alarga la vida del acabado." },
+              { q: "¿Qué pasa si después aparece una filtración?", a: "La impermeabilización la ejecuta personal de nuestro equipo y la probamos antes de alicatar. Respondemos dentro de los plazos de garantía que marca la ley; si surge algo, volvemos a revisarlo." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
@@ -161,15 +170,15 @@ export default function ReformasBanosPage() {
             ))}
           </div>
           <p className="font-body text-subtitle/80 text-xs italic text-center mt-8 max-w-[640px] mx-auto">
-            Precios orientativos por metro cuadrado. Cada baño se valora en visita técnica gratuita y se cierra por partidas.
+            Importes orientativos por metro cuadrado. Cada baño se presupuesta tras la visita, partida por partida.
           </p>
         </div>
       </section>
 
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Solicita presupuesto para tu reforma de baño</h2>
-          <p className="font-body text-white/90 text-lg max-w-[500px]">Visita técnica gratuita. Pasamos por tu baño en El Vendrell, te explicamos qué hay debajo del azulejo y te entregamos propuesta cerrada por escrito. Sin compromiso.</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">¿Le damos una vuelta a tu baño?</h2>
+          <p className="font-body text-white/90 text-lg max-w-[500px]">Pasamos a verlo sin coste, te contamos qué esconde y te dejamos una propuesta cerrada por escrito.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
             <Link href="/contacto" className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-beige transition-colors">
               Pedir visita técnica

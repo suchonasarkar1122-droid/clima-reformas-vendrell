@@ -65,23 +65,23 @@ const testimonials = [
 const processSteps = [
   {
     title: "Visita y diagnóstico",
-    description: "Nos acercamos a tu vivienda en El Vendrell, Coma-ruga o donde la tengas. Revisamos cada estancia, escuchamos qué imaginas y respondemos a las dudas técnicas en el momento. Sin coste.",
+    description: "Quedamos en la vivienda, sea en el centro, en la playa o en una urbanización. Miramos instalaciones, humedades y medidas, y nos cuentas qué te gustaría cambiar. La visita no tiene coste.",
     image: "/images/equipo-profesional-reformas-vendrell.webp",
   },
   {
     title: "Proyecto y presupuesto fijo",
-    description: "Elaboramos un dossier con planos, fichas de materiales y cronograma por fases. Firmamos un coste pactado de antemano para que no haya sustos a mitad de obra.",
+    description: "Recibes un presupuesto por partidas con los materiales concretos y un calendario por fases. Lo revisas con calma, lo ajustamos si hace falta y lo firmamos antes de empezar.",
     image: "/images/presupuesto-detallado-reforma-vendrell.webp",
   },
   {
     title: "Ejecución con equipo propio",
-    description: "Albañiles, fontaneros, electricistas y carpinteros coordinan la obra de forma conjunta. Te mantenemos informado del avance para que sigas la reforma aunque estés fuera de El Vendrell.",
+    description: "Los oficios entran en orden y bajo una sola coordinación. Al cerrar cada fase te enviamos fotos, así puedes seguir la obra aunque pases la semana lejos del Baix Penedès.",
     image: "/images/ejecucion-obra-reforma-vendrell.webp",
     objectPosition: "center 60%",
   },
   {
     title: "Entrega cuidada",
-    description: "Te devolvemos el piso o la casa con limpieza profesional, revisión por estancias y la documentación correspondiente sobre materiales y mano de obra. Listo para mudarte o alquilar.",
+    description: "Repasamos la vivienda contigo habitación por habitación, corregimos lo que haga falta, limpiamos a fondo y te dejamos boletines y fichas de materiales. Lista para entrar a vivir.",
     image: "/images/casa-reformada-interior-vendrell.webp",
   },
 ];
@@ -97,28 +97,28 @@ const galleryImages = [
 
 const faqs = [
   {
-    q: "¿Cuánto tarda una reforma integral en un piso de Coma-ruga o Sant Salvador?",
-    a: "Para un piso costero de 70-90 m² calcula entre 8 y 12 semanas, dependiendo de si tocamos cocinas y baños o también suelos y carpintería. Si quieres tenerlo listo para Semana Santa o el verano, lo planificamos con varios meses de antelación.",
+    q: "¿Cuántas semanas dura reformar entero un apartamento de la playa?",
+    a: "Un apartamento de 70 a 90 m² en Coma-ruga o Sant Salvador suele necesitar entre 8 y 12 semanas de obra, según se cambien solo cocina y baños o también suelos, puertas y ventanas. Si lo quieres listo para Semana Santa o para el verano, lo ideal es empezar a hablar en otoño.",
   },
   {
-    q: "¿Trabajáis con segundas residencias cuyos propietarios viven fuera?",
-    a: "Sí, gran parte de las reformas que hacemos son para propietarios que pasan temporadas en El Vendrell. Te mantenemos informado del avance de la obra y, en general, basta con venir a la firma del proyecto y a la entrega final. Si necesitas detalles concretos en algún momento, los pides y te los enviamos.",
+    q: "No vivo en El Vendrell, ¿cómo sigo la obra?",
+    a: "Muchas de las viviendas que reformamos son segundas residencias. Normalmente basta con que vengas a revisar la propuesta y el día de la entrega; entre medias te mandamos fotos de cada fase y te consultamos cualquier cambio antes de hacerlo.",
   },
   {
-    q: "¿Qué permisos hace falta tramitar en el ayuntamiento de El Vendrell?",
-    a: "Para reformas sin cambio estructural sirve la comunicación previa o licencia de obra menor. Si tocamos distribución, terrazas o fachada (frecuente en pisos años 70 de la costa), tramitamos la licencia de obra mayor. Nos encargamos del papeleo.",
+    q: "¿Qué permiso pide el Ajuntament del Vendrell para una reforma?",
+    a: "Las obras interiores que no afectan a estructura ni fachada se tramitan habitualmente como comunicación previa. Si se cambia la distribución de forma importante, se actúa sobre muros de carga, terrazas o fachada, hace falta proyecto técnico y licencia de obra mayor. Si el contenedor ocupa la calle, se pide también ese permiso. Preparamos toda la documentación.",
   },
   {
-    q: "¿Reformáis casas de pueblo del centro histórico con elementos protegidos?",
-    a: "Trabajamos a menudo con casas de pueblo del Centre que conservan vigas, suelos hidráulicos o muros de carga de tapial. Respetamos lo que tenga valor y modernizamos las instalaciones (eléctrica, fontanería, aislamiento) cumpliendo la normativa de Cataluña.",
+    q: "¿Podéis conservar las vigas y el suelo hidráulico de una casa antigua?",
+    a: "Sí, si están en buen estado. En las casas del casco antiguo revisamos primero la estructura y, a partir de ahí, decidimos qué se conserva, qué se restaura y por dónde pasan las instalaciones nuevas para que se vean lo menos posible.",
   },
   {
-    q: "¿Trabajáis solo en El Vendrell o también en municipios cercanos?",
-    a: "Cubrimos todo el Baix Penedès. Reformamos en Calafell, Cunit, L'Arboç, Roda de Berà y Banyeres del Penedès con el mismo equipo y los mismos plazos. La cercanía es la que nos permite responder rápido si surge cualquier ajuste durante la obra.",
+    q: "¿Hacéis obras fuera del término municipal?",
+    a: "Sí, en los pueblos vecinos: Cunit, L'Arboç, Banyeres del Penedès, Roda de Berà, Calafell y otros cercanos como Albinyana, Bellvei o Santa Oliva. Trabajamos con el mismo equipo y el mismo método, y tramitamos los permisos en cada ayuntamiento.",
   },
   {
-    q: "¿Incluye el presupuesto la gestión de residuos y la limpieza final?",
-    a: "Sí, las dos cosas vienen incluidas. Contratamos contenedor, gestionamos los residuos en planta autorizada y entregamos la vivienda con limpieza profesional, sin polvo en cajones, ventanas ni cristales.",
+    q: "¿El presupuesto incluye escombros y limpieza?",
+    a: "Sí. El contenedor, el transporte de los residuos a una planta autorizada y la limpieza final de la vivienda forman parte del presupuesto, igual que la protección de ascensor y zonas comunes durante la obra.",
   },
 ];
 
@@ -153,7 +153,7 @@ export default function HomePage() {
             Reformas <span className="text-accent">El Vendrell</span>
           </h1>
           <p className="font-body text-white/55 mt-8 text-base md:text-lg leading-[1.6] max-w-[520px] mx-auto">
-            Pisos costeros, casas de pueblo y segundas residencias. Reformas integrales con equipo propio en el Baix Penedès.
+            Apartamentos de Coma-ruga y Sant Salvador, casas del casco antiguo y viviendas de urbanización. Un equipo propio y un responsable de obra.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-3">
             <a href="#hero-form" className="bg-accent text-white px-7 py-4 rounded-full font-display font-bold text-sm hover:bg-accent-light transition-colors">
@@ -185,7 +185,7 @@ export default function HomePage() {
         <div className="max-w-[1100px] mx-auto px-5">
           <div className="text-center mb-8">
             <h2 className="font-display font-extrabold text-2xl md:text-3xl text-dark mb-2">Empieza tu reforma en 30 segundos</h2>
-            <p className="text-grey font-body text-sm">Rellena los campos y te llamamos hoy mismo con una valoración a medida.</p>
+            <p className="text-grey font-body text-sm">Dinos dónde está la vivienda y qué quieres cambiar; te llamamos para concretar la visita.</p>
           </div>
           <HeroFormPill
             formspreeId="xaqvygaw"
@@ -198,7 +198,7 @@ export default function HomePage() {
 
       {/* ============ TICKER ============ */}
       <TickerBand
-        items={["pisos costeros", "casas de pueblo", "segundas residencias", "obras llave en mano", "Baix Penedès", "Coma-ruga · Sant Salvador"]}
+        items={["apartamentos de playa", "casas del casco antiguo", "adosados de urbanización", "locales", "Sant Vicenç de Calders", "Coma-ruga · Sant Salvador"]}
         bgColor="bg-accent"
         textColor="text-white"
         direction="right"
@@ -214,7 +214,7 @@ export default function HomePage() {
               Servicios de reformas en El Vendrell
             </h2>
             <p className="font-body text-white/55 text-lg max-w-[560px] mx-auto">
-              Reformas pensadas para vivir junto al mar: pisos de los años 70 frente a la playa, casas de pueblo del centro histórico, segundas residencias o locales en Coma-ruga.
+              Cinco tipos de obra para las viviendas y los negocios del municipio. Entra en cada uno para ver qué incluye y cómo lo organizamos.
             </p>
           </div>
 
@@ -269,10 +269,10 @@ export default function HomePage() {
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Por qué Clima Reformas</p>
             <h2 className="font-display font-extrabold text-[36px] md:text-[52px] lg:text-[64px] text-dark leading-[1.05] mb-5">
-              Por qué elegir Clima Reformas Vendrell
+              Cómo trabajamos en Clima Reformas Vendrell
             </h2>
             <p className="font-body text-subtitle text-base md:text-lg max-w-[600px] mx-auto">
-              Reformas sin sorpresas, pensadas para la costa. Reformar en el Penedès no es lo mismo que reformar tierra adentro: la humedad marina, los pisos antiguos y la temporalidad de las segundas residencias condicionan cada decisión técnica.
+              Cuatro compromisos que mantenemos en cualquier obra, desde un baño en Sant Salvador hasta una casa entera en el centro.
             </p>
           </div>
 
@@ -284,9 +284,9 @@ export default function HomePage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-body font-bold text-dark text-lg mb-2">Coste pactado por escrito</h3>
+                <h3 className="font-body font-bold text-dark text-lg mb-2">Presupuesto desglosado</h3>
                 <p className="font-body text-subtitle text-sm leading-relaxed">
-                  El número que firmamos en el contrato es el que pagas. Sin partidas añadidas a mitad de obra, sin extras inventados. Si surge algo no previsto en una pared antigua, lo discutimos contigo antes de tocar nada.
+                  Cada oficio y cada material con su importe. Si al abrir una pared aparece algo que no se podía ver, te lo enseñamos y te damos el precio antes de seguir; nada se añade a la factura sin tu visto bueno.
                 </p>
               </div>
             </div>
@@ -299,9 +299,9 @@ export default function HomePage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-body font-bold text-dark text-lg mb-2">Calendario que se cumple</h3>
+                <h3 className="font-body font-bold text-dark text-lg mb-2">Fechas realistas</h3>
                 <p className="font-body text-subtitle text-sm leading-relaxed">
-                  Reformar una segunda residencia para tenerla lista en Semana Santa o en julio exige planificación. Trabajamos con un calendario por fases y te avisamos con tiempo si algún material tiene plazo de fabricación más largo.
+                  Contamos con el tiempo del permiso, con los materiales que tardan en fabricarse y con las normas de la comunidad. Así la fecha de entrega que te damos es una que se puede cumplir.
                 </p>
               </div>
             </div>
@@ -315,9 +315,9 @@ export default function HomePage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-body font-bold text-dark text-lg mb-2">Equipo profesional coordinado</h3>
+                <h3 className="font-body font-bold text-dark text-lg mb-2">Un solo interlocutor</h3>
                 <p className="font-body text-subtitle text-sm leading-relaxed">
-                  Albañiles, fontaneros, electricistas y carpinteros con experiencia trabajando juntos. En una casa de pueblo del Centre o en un piso de Coma-ruga, esa coordinación es la diferencia entre una obra limpia y un caos.
+                  Los oficios forman parte del mismo equipo y responden a la misma persona. Tú hablas con ella y ella se encarga de que el fontanero no espere al albañil ni el pintor llegue antes de tiempo.
                 </p>
               </div>
             </div>
@@ -331,9 +331,9 @@ export default function HomePage() {
                 </svg>
               </div>
               <div>
-                <h3 className="font-body font-bold text-dark text-lg mb-2">Acabados que duran</h3>
+                <h3 className="font-body font-bold text-dark text-lg mb-2">Pensado para este clima</h3>
                 <p className="font-body text-subtitle text-sm leading-relaxed">
-                  Materiales de calidad, ejecución cuidada y acompañamiento también después de la entrega. Si surge cualquier ajuste en los plazos cubiertos por la garantía legal, volvemos a tu vivienda en El Vendrell sin discusiones.
+                  Cerca del mar, la sal y la humedad castigan herrajes, pinturas y juntas. Elegimos materiales que lo soportan y, si después de la entrega algo necesita un ajuste dentro de la garantía legal, volvemos a revisarlo.
                 </p>
               </div>
             </div>
@@ -342,6 +342,36 @@ export default function HomePage() {
           <div className="text-center">
             <CTAButtons className="justify-center" />
           </div>
+        </div>
+      </section>
+
+      {/* ============ REFORMAR EN EL VENDRELL ============ */}
+      <section className="bg-beige-warm px-5 py-20 md:py-24">
+        <div className="mx-auto max-w-[900px] space-y-5 font-body text-subtitle text-base leading-relaxed">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Conocer el terreno</p>
+          <h2 className="font-display font-extrabold text-[30px] md:text-[44px] text-dark leading-[1.05]">Reformar en El Vendrell: cada barrio, su obra</h2>
+          <p>
+            El término municipal del Vendrell reúne en pocos kilómetros tipos de vivienda muy distintos, y eso cambia la manera de plantear una reforma. No se aborda igual un apartamento de veraneo frente a la playa que una casa de tres plantas del casco antiguo o un adosado con jardín de una urbanización.
+          </p>
+          <h3 className="font-body font-bold text-dark text-xl">La costa: Coma-ruga, Sant Salvador y Els Masos</h3>
+          <p>
+            La mayoría de los bloques de la franja litoral se construyeron entre los años sesenta y ochenta como segundas residencias. Hoy muchos se reforman para vivir en ellos todo el año o para alquilarlos por temporadas. Las prioridades se repiten: renovar electricidad y fontanería, cambiar ventanas que no aíslan, sustituir la bañera por una ducha y abrir la cocina para ganar luz. A eso se suma el ambiente marino, que obliga a escoger bien los materiales, y la condensación que aparece en invierno en los pisos cerrados. Lo explicamos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link> y en <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline">reformas de baños</Link>.
+          </p>
+          <h3 className="font-body font-bold text-dark text-xl">El casco antiguo y el núcleo urbano</h3>
+          <p>
+            Alrededor de la Rambla y la plaza Vella quedan casas entre medianeras con muros gruesos, vigas de madera y patio trasero. Aquí manda la estructura: antes de hablar de acabados revisamos forjados, cubierta y humedad en planta baja, y decidimos qué elementos originales vale la pena conservar. Suelen ser obras de <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reforma integral</Link>. En las calles comerciales del centro, además, acondicionamos tiendas, despachos y consultas, como contamos en <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline">reformas de locales</Link>.
+          </p>
+          <h3 className="font-body font-bold text-dark text-xl">Urbanizaciones y Sant Vicenç de Calders</h3>
+          <p>
+            En El Tancat, Mas Borràs, Les Madrigueres o la zona de Sant Vicenç de Calders hay viviendas unifamiliares y adosadas de los ochenta y noventa. Piden cocinas abiertas al jardín, baños nuevos, aislamiento de cubierta y climatización más eficiente. Es donde más se nota la mejora energética, y conviene plantear la <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline">reforma de la cocina</Link> junto con el resto si se va a tocar la instalación.
+          </p>
+          <h3 className="font-body font-bold text-dark text-xl">Más allá del municipio</h3>
+          <p>
+            Trabajamos también en los pueblos de alrededor. En <Link href="/zonas/reformas-arboc" className="text-accent font-semibold underline">L&apos;Arboç</Link> y <Link href="/zonas/reformas-banyeres-penedes" className="text-accent font-semibold underline">Banyeres del Penedès</Link> predominan las casas de pueblo y las viviendas unifamiliares de interior; en <Link href="/zonas/reformas-cunit" className="text-accent font-semibold underline">Cunit</Link> y <Link href="/zonas/reformas-roda-de-bera" className="text-accent font-semibold underline">Roda de Berà</Link>, los apartamentos de costa y las urbanizaciones; y atendemos también <Link href="/zonas/reformas-calafell" className="text-accent font-semibold underline">Calafell</Link> y municipios cercanos como Albinyana, Bellvei o Santa Oliva.
+          </p>
+          <p>
+            Si estás empezando a pensar en una obra, puede ayudarte nuestro artículo sobre <Link href="/blog/humedad-condensacion-pisos-playa-invierno" className="text-accent font-semibold underline">humedad y condensación en pisos de playa</Link> o la guía de <Link href="/blog/cuanto-cuesta-reformar-piso-vendrell" className="text-accent font-semibold underline">precios orientativos de reforma</Link>.
+          </p>
         </div>
       </section>
 
@@ -362,9 +392,9 @@ export default function HomePage() {
           <div className="text-center max-w-[1100px]">
             <p className="font-body font-bold text-sm uppercase text-accent mb-4 tracking-[0.15em]">Cómo organizamos tu obra</p>
             <h2 className="font-display font-extrabold text-[32px] md:text-[48px] lg:text-[64px] text-dark mb-5 leading-[1.05]">
-              Nuestro proceso de reforma paso a paso
+              Así avanza una reforma con nosotros
             </h2>
-            <p className="text-subtitle text-base font-medium">De la primera visita a las llaves en cuatro pasos: planificación seria, comunicación constante y resultados visibles cada semana.</p>
+            <p className="text-subtitle text-base font-medium">Cuatro etapas, siempre en el mismo orden, para que sepas en todo momento qué se está haciendo y qué viene después.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 w-full">
             {processSteps.map((step, i) => (
@@ -377,7 +407,7 @@ export default function HomePage() {
 
       {/* ============ TICKER ============ */}
       <TickerBand
-        items={["equipo propio", "humedad marina controlada", "carpintería de calidad", "trato cercano", "vigas y suelos hidráulicos", "obras limpias"]}
+        items={["presupuesto por partidas", "permisos tramitados", "impermeabilización", "ventanas eficientes", "elementos originales", "limpieza final"]}
         bgColor="bg-accent"
         textColor="text-white"
         direction="right"
@@ -389,12 +419,12 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1400px] flex flex-col gap-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 pb-6 border-b border-black/10">
             <div className="flex flex-col gap-3">
-              <p className="font-body font-bold text-sm uppercase text-accent tracking-wide">Lo que dicen los vecinos</p>
+              <p className="font-body font-bold text-sm uppercase text-accent tracking-wide">Opiniones</p>
               <h2 className="font-display font-extrabold text-[32px] md:text-[40px] lg:text-[56px] text-dark leading-[1.1] tracking-[0.01em]">
                 Opiniones de clientes en El Vendrell
               </h2>
               <p className="font-body text-subtitle text-base md:text-lg max-w-[560px]">
-                Familias del Baix Penedès que ya nos eligieron para reformar su piso, casa o segunda residencia.
+                Algunos comentarios de personas para las que hemos trabajado en el municipio.
               </p>
             </div>
             <div className="flex items-center gap-3 text-sm text-subtitle">
@@ -423,10 +453,10 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1200px] text-center">
           <p className="font-body font-bold text-sm uppercase text-accent mb-4 tracking-wide">Dónde trabajamos</p>
           <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05] mb-4">
-            Reformas en el Baix Penedès y zonas cercanas
+            Pueblos vecinos en los que también trabajamos
           </h2>
           <p className="font-body text-subtitle text-base md:text-lg max-w-[600px] mx-auto mb-8">
-            Cubrimos El Vendrell y todo el Baix Penedès con el mismo equipo y los mismos plazos.
+            Además de todos los núcleos del Vendrell, atendemos los municipios de alrededor, de costa y de interior.
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             {[
@@ -462,7 +492,7 @@ export default function HomePage() {
                 Reformas realizadas en El Vendrell
               </h2>
               <p className="font-body text-white/55 text-base md:text-lg max-w-[480px] mt-3">
-                Proyectos recientes en pisos, casas y segundas residencias del Baix Penedès.
+                Algunas imágenes de cocinas, baños y estancias que hemos renovado.
               </p>
             </div>
             <p className="font-body text-white/40 text-sm uppercase tracking-wider">Desliza &rarr;</p>
@@ -483,7 +513,7 @@ export default function HomePage() {
           ))}
           <div className="flex-shrink-0 w-[320px] md:w-[350px] bg-accent rounded-[20px] flex flex-col items-center justify-center p-10 text-center gap-6">
             <h3 className="font-display font-extrabold text-3xl md:text-4xl text-white">Tu obra aquí</h3>
-            <p className="font-body text-white/85 text-sm">El próximo proyecto del catálogo puede ser tu vivienda en El Vendrell.</p>
+            <p className="font-body text-white/85 text-sm">¿Quieres ver qué podríamos hacer en tu casa? Empecemos por una visita.</p>
             <Link href="/contacto" className="bg-dark text-white font-body font-bold px-6 py-3 rounded-full text-sm hover:bg-dark-card transition-colors">
               Hablemos &rarr;
             </Link>
@@ -497,10 +527,10 @@ export default function HomePage() {
           <div className="text-center mb-12">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Dudas frecuentes</p>
             <h2 className="font-display font-extrabold text-[32px] md:text-[44px] lg:text-[56px] text-dark leading-[1.05] mb-4">
-              Preguntas frecuentes sobre reformas en El Vendrell
+              Dudas habituales antes de reformar en El Vendrell
             </h2>
             <p className="font-body text-subtitle text-base max-w-[600px] mx-auto">
-              Lo que más nos preguntan. Si no encuentras tu duda aquí, llámanos al 877 278 163 y la resolvemos por teléfono en cinco minutos.
+              Si tu pregunta no está aquí, llama al 877 278 163 o escríbenos por WhatsApp.
             </p>
           </div>
 
@@ -555,7 +585,7 @@ export default function HomePage() {
                   Solicita presupuesto para tu reforma
                 </h2>
                 <p className="text-white/90 text-[17px] leading-relaxed">
-                  ¿Tienes claro qué quieres reformar? Cuéntanos tu vivienda en El Vendrell, Coma-ruga o el municipio cercano que sea. Te enviamos una valoración detallada, transparente y adaptada a tu obra.
+                  Cuéntanos qué vivienda tienes y qué quieres cambiar. Te llamamos, quedamos para verla y te dejamos un presupuesto por escrito, separado por partidas.
                 </p>
                 <div className="flex flex-col gap-2 text-beige text-sm mt-2">
                   <div className="flex items-center gap-2.5">

@@ -4,9 +4,9 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Blog de Reformas en El Vendrell · Consejos y Tendencias | CRV",
+  title: "Blog de Reformas en El Vendrell",
   description:
-    "Blog de Clima Reformas Vendrell: precios de reforma en el Baix Penedès, tendencias en cocinas y baños, ayudas a la rehabilitación y guías prácticas.",
+    "Guías para reformar en El Vendrell: humedad en pisos de playa, precios orientativos, cocinas y ayudas energéticas, escritas desde la obra.",
   alternates: { canonical: "/blog" },
   openGraph: {
     title: "Blog · Clima Reformas Vendrell",
@@ -18,10 +18,20 @@ export const metadata: Metadata = {
 
 const posts = [
   {
+    slug: "humedad-condensacion-pisos-playa-invierno",
+    title: "Humedad y condensación en pisos de playa en invierno",
+    excerpt:
+      "Por qué aparece moho en los apartamentos de Coma-ruga y Sant Salvador que pasan el invierno cerrados, cómo distinguirlo de una filtración y qué se puede hacer con y sin obra.",
+    image: "/images/habitacion-reformada-vendrell.webp",
+    imageAlt: "Dormitorio reformado sin humedades en un piso de playa de El Vendrell",
+    date: "15 noviembre 2026",
+    category: "Mantenimiento",
+  },
+  {
     slug: "cuanto-cuesta-reformar-piso-vendrell",
     title: "¿Cuánto cuesta reformar un piso en El Vendrell en 2026?",
     excerpt:
-      "Guía actualizada con rangos por metro cuadrado para pisos costeros y casas de pueblo del Baix Penedès, desglose por estancias y consejos para reducir el coste sin perder calidad.",
+      "Rangos orientativos por metro cuadrado y por estancia, partidas que encarecen los pisos de la costa y cómo comparar presupuestos sin llevarte sorpresas.",
     image: "/images/piso-reformado-completo-vendrell.webp",
     imageAlt: "Reforma de piso costero en El Vendrell - precios 2026",
     date: "10 marzo 2026",
@@ -31,7 +41,7 @@ const posts = [
     slug: "tendencias-cocinas-2026",
     title: "Tendencias en cocinas 2026: ideas para pisos costeros",
     excerpt:
-      "Cocinas abiertas al salón, islas centrales, materiales que aguantan la humedad marina y soluciones de iluminación LED. Cómo aplicarlas en pisos del Baix Penedès.",
+      "Penínsulas, encimeras compactas, colores cálidos y luz por zonas: qué ideas de 2026 funcionan en un apartamento junto al mar y cuáles conviene evitar.",
     image: "/images/cocina-isla-tendencias-vendrell.webp",
     imageAlt: "Cocina con isla central acogedora - tendencias en reformas 2026 para El Vendrell",
     date: "26 febrero 2026",
@@ -41,7 +51,7 @@ const posts = [
     slug: "ayudas-rehabilitacion-energetica-baix-penedes",
     title: "Ayudas a la rehabilitación energética en el Baix Penedès",
     excerpt:
-      "Fondos Next Generation, programas de la Generalitat y subvenciones del IDAE para mejorar la eficiencia energética de pisos y casas en El Vendrell, Calafell y Cunit.",
+      "Tipos de ayuda y deducción para ventanas, aislamiento, aerotermia o placas solares, qué obras suelen encajar y cómo prepararse antes de pedirlas.",
     image: "/images/casa-eficiencia-energetica-vendrell.webp",
     imageAlt: "Casa moderna con jardín - ayudas para rehabilitación energética en el Baix Penedès",
     date: "12 febrero 2026",
@@ -68,7 +78,20 @@ export default function BlogPage() {
             Blog — Consejos y Guías sobre Reformas en El Vendrell
           </h1>
           <p className="text-white/65 text-base md:text-lg mt-4 max-w-[560px]">
-            Precios, tendencias y trámites prácticos para reformar pisos y casas en el Baix Penedès.
+            Lo que aprendemos en cada obra, contado para quien está pensando en reformar en El Vendrell y alrededores.
+          </p>
+        </div>
+      </section>
+
+      {/* ============ INTRO ============ */}
+      <section className="bg-beige px-5 pt-16 md:pt-20">
+        <div className="mx-auto max-w-[860px] space-y-4 font-body text-subtitle text-base leading-relaxed">
+          <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark leading-[1.1]">Para qué sirve este blog</h2>
+          <p>
+            Muchas de las preguntas que nos hacen se repiten de una visita a otra: por qué sale moho en el piso de la playa cuando llega el frío, qué precio tiene más o menos reformar un apartamento de los setenta, si se puede abrir la cocina al comedor sin pedir licencia o si hay alguna ayuda para cambiar las ventanas. Aquí respondemos con calma a esas dudas, con ejemplos de los pisos de Coma-ruga y Sant Salvador, de las casas del casco antiguo y de los adosados de las urbanizaciones del municipio.
+          </p>
+          <p>
+            No publicamos por publicar. Cada artículo nace de algo que hemos visto en obra o que nos han preguntado varias veces, y lo revisamos cuando cambian los precios, la normativa o las convocatorias de ayudas. Si quieres profundizar en un tipo de trabajo concreto, encontrarás más detalle en las páginas de <Link href="/servicios" className="text-accent font-semibold underline">servicios de reforma</Link>, y si tu vivienda está fuera del término municipal, en las de <Link href="/zonas" className="text-accent font-semibold underline">zonas donde trabajamos</Link>.
           </p>
         </div>
       </section>

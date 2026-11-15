@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,13 +7,13 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Cocinas en El Vendrell | CRV",
+  title: "Reformas de Cocinas en El Vendrell",
   description:
-    "Cocinas a medida en El Vendrell y Baix Penedès: encimeras porcelánicas, mobiliario hidrófugo y herrajes inox aptos para la humedad costera. Presupuesto gratis.",
+    "Reforma de cocinas en El Vendrell: abrir la cocina al salón, islas, encimeras porcelánicas y muebles que resisten la humedad del mar. Visita sin coste.",
   alternates: { canonical: "/servicios/reformas-cocinas" },
   openGraph: {
-    title: "Especialistas en Reformas de Cocinas a Medida en El Vendrell",
-    description: "Diseño, mobiliario hecho a medida y ejecución con equipo propio.",
+    title: "Reforma de cocinas en El Vendrell y el Baix Penedès",
+    description: "Distribución, instalaciones, mobiliario y encimera en una sola obra, adaptada a pisos de playa y casas del Centre.",
     url: "/servicios/reformas-cocinas",
     images: ["/images/cocina-amplia-reforma-vendrell.webp"],
   },
@@ -29,14 +29,14 @@ export default function ReformasCocinasPage() {
       ]} />
       <ServiceSchema
         name="Reformas de Cocinas en El Vendrell"
-        description="Diseño y ejecución de cocinas a medida en pisos costeros y casas del Baix Penedès. Materiales pensados para la humedad marina."
+        description="Reforma completa de cocinas en pisos de playa, casas de pueblo y adosados de El Vendrell y el Baix Penedès, con instalaciones nuevas y materiales para ambiente marino."
         url="/servicios/reformas-cocinas"
         image="/images/cocina-amplia-reforma-vendrell.webp"
       />
 
       <HeroService
-        title="Especialistas en Reformas de Cocinas a Medida en El Vendrell"
-        subtitle="Cocinas con isla, en U o lineales para pisos costeros y casas de pueblo. Materiales que aguantan la humedad marina y un diseño que aprovecha la luz mediterránea."
+        title="Cocinas que se adaptan a cómo comes, no al catálogo"
+        subtitle="Desde la cocina cerrada de un apartamento de Coma-ruga hasta la del patio de una casa del Centre: redistribución, instalaciones, muebles y encimera con un solo equipo."
         image="/images/cocina-amplia-reforma-vendrell.webp"
         imageAlt="Cocina de diseño reformada en piso costero de El Vendrell"
         imageTitle="Reforma de cocinas en El Vendrell - Clima Reformas Vendrell"
@@ -51,18 +51,18 @@ export default function ReformasCocinasPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-16">
             <div className="flex-1 min-w-[300px] flex flex-col justify-center gap-6 py-6">
-              <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Cocinas que se viven</p>
+              <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Antes de elegir muebles</p>
               <h2 className="font-display font-extrabold text-[36px] md:text-[48px] text-dark leading-[1.05]">
-                Reforma de cocina en El Vendrell, llave en mano
+                Una cocina nueva empieza por las tuberías y la luz
               </h2>
               <div className="w-16 h-[3px] bg-accent rounded-full" />
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                En el Baix Penedès la cocina es donde se acaba juntando todo el mundo: el café del domingo, la cena improvisada cuando vienen los abuelos desde L&apos;Arboç, los desayunos de verano antes de bajar a Coma-ruga. Por eso planteamos cada reforma de cocina pensando primero en cómo se va a usar, no en cómo se ve en una foto de catálogo.
+                La primera conversación casi nunca va de colores. Va de cuántos sois en casa, si cocináis a diario o solo en vacaciones, dónde queréis comer y qué os molesta de la cocina actual: que no cabe el lavavajillas, que el humo llega al dormitorio, que la única ventana da a un patio de luces oscuro. Con eso decidimos la distribución, y solo entonces hablamos de frentes y tiradores.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Cubrimos el ciclo entero: derribo controlado, retirada de mobiliario antiguo, picado de revestimientos, nuevas tomas de agua, electricidad y desagües, encimeras de Dekton o porcelánico, frentes lacados o de roble natural, integración de electrodomésticos y puesta en marcha. Un solo equipo y un único interlocutor que te da la cara durante toda la obra.
+                La obra incluye retirar los muebles viejos, picar alicatados, llevar agua y desagüe a donde haga falta, rehacer la instalación eléctrica con líneas propias para horno, placa y lavavajillas, nivelar suelo y paredes, montar el mobiliario, medir la encimera sobre los muebles ya colocados y conectar los electrodomésticos. Coordinamos albañil, fontanero, electricista y montador para que no pases semanas con la cocina a medias.
               </p>
-              <p className="font-body font-semibold text-dark text-base">Te explicamos la propuesta a fondo antes de firmar. Si no encaja, lo ajustamos.</p>
+              <p className="font-body font-semibold text-dark text-base">Te enseñamos la propuesta en plano y con muestras reales; si algo no te convence, se cambia antes de pedir nada.</p>
               <CTAButtons />
             </div>
             <div className="flex-1 min-w-[300px] min-h-[500px] lg:min-h-[600px] relative rounded-[20px] overflow-hidden">
@@ -76,13 +76,13 @@ export default function ReformasCocinasPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Tipologías</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Tres formatos que repetimos en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Tres cocinas típicas del municipio y cómo las resolvemos</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
-              { title: "Cocina abierta al salón", text: "El proyecto estrella en los pisos años 70-80 de Coma-ruga y Sant Salvador. La cocina original cabe justa para dos personas; tirando el tabique no estructural ganas comedor, luz natural y la sensación de un piso nuevo sin moverte de barrio." },
-              { title: "Cocina con isla central", text: "Para chalets y adosados de El Tancat, El Mas Borràs o Segur de Calafell. La isla concentra la zona de cocción y el fregadero, deja sitio para taburetes y libera la pared perimetral para columnas de horno y nevera integradas." },
-              { title: "Cocina en galera de casa de pueblo", text: "En las casas estrechas del Centre histórico y de La Riera, donde la cocina suele dar al patio interior, trabajamos en formato lineal o en L. Aprovechamos cada centímetro de altura con muebles hasta el techo y mantenemos la circulación libre." },
+              { title: "La cocina cerrada del apartamento de playa", text: "En los bloques de Sant Salvador y Coma-ruga es habitual una cocina estrecha con puerta al pasillo y galería al fondo. Si el tabique que la separa del comedor no es de carga, abrirla cambia el piso entero: entra luz de la terraza y la mesa pasa a formar parte de la cocina." },
+              { title: "La cocina con salida al jardín", text: "En los adosados de El Tancat, Mas Borràs o Sant Vicenç de Calders la familia suele querer conectar cocina y porche. Una península o una isla con zona de desayuno, buena extracción y un ventanal practicable hacen que la cocina se use también en verano." },
+              { title: "La cocina de la casa entre medianeras", text: "En el casco antiguo la cocina ocupa muchas veces la crujía del fondo, junto al patio. Planteamos muebles lineales o en L hasta el techo, aprovechamos la altura que dan los forjados antiguos y resolvemos la salida de humos sin afectar a la fachada principal." },
             ].map((b) => (
               <div key={b.title} className="bg-white rounded-[16px] p-7 flex flex-col gap-3 shadow-sm">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
@@ -93,6 +93,18 @@ export default function ReformasCocinasPage() {
               </div>
             ))}
           </div>
+          <div className="max-w-[860px] mx-auto mt-14 space-y-5 font-body text-subtitle text-base leading-relaxed">
+            <h3 className="font-body font-bold text-dark text-xl">Lo que el salitre le hace a una cocina</h3>
+            <p>
+              A pocas manzanas de la playa la cocina sufre más de lo que parece. El aire húmedo y con sal oxida bisagras y guías de baja calidad, hincha los cantos de los tableros de aglomerado normal y deja marcas en las encimeras porosas. En un piso que pasa cerrado de octubre a abril, además, la falta de ventilación acelera todo. Por eso recomendamos tablero hidrófugo en los módulos bajos, cantos bien sellados, herrajes de marcas con recambios disponibles y encimeras compactas que no necesitan mantenimiento.
+            </p>
+            <p>
+              Si quieres ideas de acabados y distribuciones que funcionan en pisos de costa, las recogimos en el artículo sobre <Link href="/blog/tendencias-cocinas-2026" className="text-accent font-semibold underline">tendencias en cocinas para 2026</Link>. Y si la cocina es solo una parte de algo mayor, quizá te interese ver cómo planteamos una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reforma integral de la vivienda</Link>, porque abrir la cocina suele arrastrar suelos, electricidad y pintura del resto de la casa.
+            </p>
+            <p>
+              Trabajamos cocinas en todo el municipio y también en la costa vecina, desde los apartamentos de Roda de Mar en <Link href="/zonas/reformas-roda-de-bera" className="text-accent font-semibold underline">Roda de Berà</Link> hasta las casas de interior del Baix Penedès.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -100,14 +112,14 @@ export default function ReformasCocinasPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Materiales y equipamiento</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Lo que recomendamos para la costa del Baix Penedès</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Qué solemos aconsejar y por qué</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { title: "Encimeras porcelánicas y Dekton", text: "Aguantan el sol directo de las cocinas con ventanas a poniente sin decolorarse, no se manchan con vino ni aceite, y soportan el cambio brusco de temperatura cuando dejas la sartén caliente. Es lo que más vendemos en segundas residencias de Coma-ruga." },
-              { title: "Frentes hidrófugos con herrajes inox", text: "El aire salino del Mediterráneo oxida los herrajes baratos en pocos veranos. Trabajamos con bisagras y guías Blum o Hettich y tableros con núcleo hidrófugo. Cierres suaves, ajuste milimétrico y mantenimiento mínimo durante 15 años." },
-              { title: "Inducción y extracción seria", text: "En pisos pequeños recomendamos placas de inducción flexibles y campanas perimetrales con motor potente. Si la cocina se ha abierto al salón, el control del olor es crítico: nadie quiere que el sofá huela a sardina." },
-              { title: "Iluminación por capas", text: "General empotrada en techo, lineal LED bajo muebles altos para la encimera y suspensión decorativa sobre la isla. La cocina deja de ser un único punto de luz cenital para convertirse en un espacio que cambia según la hora." },
+              { title: "Encimera compacta o porcelánica", text: "No absorbe el aceite ni el vino, aguanta una olla caliente y no pierde color aunque le dé el sol de la tarde. Para una vivienda que se usa por temporadas es la opción que menos cuidados pide." },
+              { title: "Módulos bajos hidrófugos y buenos herrajes", text: "La zona del fregadero y el lavavajillas es la que antes se estropea. Tablero resistente al agua, cantos sellados y bisagras y guías de calidad evitan puertas descolgadas al cabo de pocos años." },
+              { title: "Extracción proporcionada a la cocina", text: "Si la cocina queda abierta al salón, la campana tiene que estar bien dimensionada y con salida adecuada. Revisamos si el edificio tiene conducto aprovechable antes de elegir modelo." },
+              { title: "Luz de trabajo y luz de ambiente", text: "Tira LED bajo los muebles altos para la encimera, puntos empotrados para la luz general y una lámpara colgante si hay isla o mesa. Con circuitos separados, cada momento del día tiene su luz." },
             ].map((b) => (
               <div key={b.title} className="flex gap-5 bg-white/5 border border-white/10 rounded-[16px] p-7">
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
@@ -127,15 +139,15 @@ export default function ReformasCocinasPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cómo lo hacemos</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Nuestro proceso de reforma de cocina paso a paso</h2>
-            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">De la primera visita a la primera cena, sin sobresaltos.</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">De la medición a la primera comida</h2>
+            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Cuatro etapas con fechas que conoces desde el principio.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", title: "Toma de medidas y briefing", text: "Pasamos por tu vivienda en El Vendrell, medimos con láser, fotografiamos instalaciones existentes y te preguntamos cómo cocinas: si haces calçotades, si necesitas zona de office, si vives solo o entran ocho personas el sábado." },
-              { step: "02", title: "Propuesta y selección", text: "Te presentamos una propuesta de distribución y, cuando una funciona, vamos contigo al showroom: tocas encimeras, abres cajones, comparas frentes. Ningún material se elige por catálogo." },
-              { step: "03", title: "Obra coordinada por fases", text: "Demolición y vaciado en los primeros días, instalaciones nuevas, replanteo del mobiliario, encimera medida en obra y cortada a la semana, montaje de electrodomésticos y puesta en marcha. Te mantenemos informado del avance." },
-              { step: "04", title: "Repaso y entrega", text: "Revisamos cada cajón, regulamos puertas, comprobamos siliconas, certificamos electricidad y dejamos la cocina limpia. Te explicamos el mantenimiento básico de la encimera y entregamos la documentación correspondiente." },
+              { step: "01", title: "Medición y hábitos", text: "Tomamos medidas, localizamos bajantes, ventilaciones y pilares, y hablamos de cómo usáis la cocina: si hacéis comidas grandes los domingos, si necesitáis despensa, dónde va la basura selectiva." },
+              { step: "02", title: "Plano y muestras", text: "Te presentamos una o dos distribuciones con alzados y, cuando una encaja, eliges frentes, encimera y suelo con las muestras en la mano o en exposición." },
+              { step: "03", title: "Obra en orden", text: "Desmontaje y derribo, instalaciones nuevas, paredes y suelo, montaje de muebles, plantilla de encimera y colocación, y por último electrodomésticos y remates." },
+              { step: "04", title: "Ajustes y entrega", text: "Regulamos puertas y cajones, sellamos juntas, probamos cada aparato y te dejamos la cocina limpia junto con las instrucciones de cuidado de la encimera." },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-[16px] p-7 flex flex-col gap-4 shadow-sm">
                 <span className="font-display font-extrabold text-[48px] text-accent/20 leading-none">{s.step}</span>
@@ -151,15 +163,15 @@ export default function ReformasCocinasPage() {
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Preguntas frecuentes</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">FAQ — Reforma de cocina en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Lo que nos preguntan sobre cocinas en El Vendrell</h2>
           </div>
           <div className="flex flex-col gap-4">
             {[
-              { q: "¿Cuánto cuesta una reforma de cocina en El Vendrell?", a: "Como referencia, las cocinas se mueven en tres tramos orientativos por metro cuadrado: línea funcional desde 480 €/m², línea media con encimera porcelánica y mobiliario hidrófugo desde 620 €/m², y línea premium con isla, frentes lacados y electrodomésticos integrados desde 780 €/m². Cada cocina se valora en visita y te entregamos detalle por partidas, sin compromiso." },
-              { q: "¿Hay que pedir licencia al Ayuntamiento de El Vendrell?", a: "Si solo cambias mobiliario, encimera y revestimientos, basta con una comunicación previa, que tramitamos nosotros. Si tiras tabiques para abrir la cocina al salón —incluso uno no estructural— el Ayuntamiento de El Vendrell pide una declaración responsable con memoria firmada por técnico. Si el muro es de carga, se sube a licencia mayor. Lo gestionamos todo." },
-              { q: "¿Qué encimera funciona mejor con la humedad de Coma-ruga o Sant Salvador?", a: "Para segundas residencias cerca del mar recomendamos Dekton o porcelánico macizo. No se mancha, no necesita sellados anuales como el mármol y soporta el sol directo cuando la cocina tiene una ventana grande hacia el balcón. Si buscas calidez visual, el porcelánico imitación piedra natural es la mejor decisión coste-durabilidad." },
-              { q: "¿Cuántas semanas estoy sin cocina?", a: "Una cocina sin tirar tabiques: entre 3 y 5 semanas desde que entramos en obra. Si abrimos al salón con viga vista o oculta y replanteamos instalaciones: 5-7 semanas. En segundas residencias coordinamos con tu calendario de uso para que la obra termine antes del puente que tienes pensado bajar." },
-              { q: "¿Trabajáis con mi cocinista de confianza si ya tengo una propuesta?", a: "Sí, montamos cocinas que vienen de tienda especializada (Santos, Schmidt, Gunni, etc.), encajamos la albañilería y las instalaciones a su medición y nos coordinamos con su técnico. Si prefieres que te llevemos el proyecto entero, también: trabajamos con varios fabricantes nacionales con showroom en Tarragona y Vilafranca." },
+              { q: "¿Qué rango de precio tiene una cocina reformada?", a: "Usamos tres tramos orientativos por metro cuadrado: funcional desde 480 €/m², media con encimera porcelánica y muebles hidrófugos desde 620 €/m², y alta con isla, frentes lacados y electrodomésticos integrados desde 780 €/m². El importe exacto sale de la visita, con cada partida separada." },
+              { q: "¿Necesito permiso del Ajuntament para cambiar la cocina?", a: "Cambiar muebles, encimera y revestimientos se tramita normalmente como comunicación previa. Si se derriba un tabique para abrir la cocina, el Ajuntament puede pedir documentación técnica, y si el muro es estructural hará falta proyecto y licencia. Lo comprobamos en la visita y preparamos los papeles." },
+              { q: "¿Qué encimera aguanta mejor cerca del mar?", a: "Las compactas sinterizadas y las porcelánicas. No son porosas, no hay que tratarlas cada año y no se decoloran con el sol. Si te gusta el aspecto de la piedra, hay acabados imitación que mantienen esas ventajas." },
+              { q: "¿Cuánto tiempo estaré sin cocina?", a: "Si se mantiene la distribución, entre 3 y 5 semanas desde el primer día de obra. Si se abre al salón y se reubican tomas, entre 5 y 7. En segundas residencias ajustamos el inicio para que la cocina esté lista antes de la fecha en que pensáis volver." },
+              { q: "Ya tengo el proyecto de una tienda de cocinas, ¿podéis hacer la obra?", a: "Sí. Nos coordinamos con el técnico de la tienda, adaptamos fontanería, electricidad y albañilería a sus planos y dejamos paredes y suelo listos para el montaje. Si lo prefieres, también podemos encargarnos del mobiliario." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
@@ -172,15 +184,15 @@ export default function ReformasCocinasPage() {
             ))}
           </div>
           <p className="font-body text-subtitle/80 text-xs italic text-center mt-8 max-w-[640px] mx-auto">
-            Precios orientativos por metro cuadrado. Cada cocina se valora en visita técnica gratuita y se cierra por partidas.
+            Importes orientativos por metro cuadrado. Cada cocina se presupuesta tras la visita, partida por partida.
           </p>
         </div>
       </section>
 
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Solicita presupuesto para tu reforma de cocina</h2>
-          <p className="font-body text-white/90 text-lg max-w-[520px]">Visita técnica gratuita y propuesta cerrada por escrito. Sin compromiso de contratar.</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Cuéntanos cómo es tu cocina ahora</h2>
+          <p className="font-body text-white/90 text-lg max-w-[520px]">Vamos a medirla sin coste y te entregamos una propuesta por escrito, con plano y precio desglosado.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
             <Link href="/contacto" className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-beige transition-colors">
               Cuéntame mi cocina

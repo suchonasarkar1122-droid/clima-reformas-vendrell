@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Aviso Legal · Clima Reformas Vendrell",
+  title: "Aviso Legal",
   description: "Aviso legal de Clima Reformas Vendrell. Información sobre el titular del sitio web reformasvendrell.es, condiciones de uso y propiedad intelectual.",
   alternates: { canonical: "/aviso-legal" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function AvisoLegalPage() {

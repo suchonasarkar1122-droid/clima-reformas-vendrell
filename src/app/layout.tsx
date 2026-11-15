@@ -25,11 +25,11 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   title: {
-    default: "Reformas en El Vendrell · Cocinas, Baños, Pisos y Locales | CRV",
-    template: "%s | Clima Reformas Vendrell",
+    default: "Reformas en El Vendrell · Cocinas, Baños y Pisos | CRV",
+    template: "%s | Clima Reformas",
   },
   description:
-    "Empresa de reformas integrales en El Vendrell y Baix Penedès. Pisos costeros, casas de pueblo, segundas residencias en Coma-ruga y Sant Salvador. Llama: 877 278 163.",
+    "Reformas en El Vendrell: apartamentos de Coma-ruga y Sant Salvador, casas del casco antiguo y locales. Equipo propio y visita sin coste. 877 278 163.",
   authors: [{ name: "Clima Reformas Vendrell" }],
   creator: "Clima Reformas Vendrell",
   publisher: "Clima Reformas Vendrell",

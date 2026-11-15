@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Cookies · Clima Reformas Vendrell",
+  title: "Política de Cookies",
   description: "Política de cookies de reformasvendrell.es: tipos de cookies utilizados en este sitio web, finalidades y cómo aceptarlas o rechazarlas desde tu navegador.",
   alternates: { canonical: "/cookies" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function CookiesPage() {

@@ -5,31 +5,31 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Roda de Berà · Casas y pisos | CRV",
+  title: "Reformas en Roda de Berà · Casas y pisos",
   description:
-    "Reformas en Roda de Berà: pisos en Costa Daurada, casas en Roda de Mar y reformas integrales. Equipo propio desde El Vendrell. Llama: 877 278 163.",
+    "Reformas en Roda de Berà y Roda de Mar: apartamentos de playa, casas de urbanización y viviendas del pueblo. Equipo propio desde El Vendrell. 877 278 163.",
   alternates: { canonical: "/zonas/reformas-roda-de-bera" },
   openGraph: {
-    title: "Reformas en Roda de Berà · Clima Reformas Vendrell",
-    description: "Reformas integrales y rehabilitaciones en Roda de Berà y todo el litoral del Baix Penedès.",
+    title: "Reformas en Roda de Berà",
+    description: "Apartamentos en Roda de Mar, viviendas de urbanización y casas del pueblo de Roda de Berà.",
     url: "/zonas/reformas-roda-de-bera",
     images: ["/images/cocina-amplia-reforma-vendrell.webp"],
   },
 };
 
 const services = [
-  { title: "Reformas Integrales", desc: "Reforma completa de pisos en Costa Daurada y casas adosadas en Roda de Mar.", href: "/servicios/reformas-integrales" },
-  { title: "Reformas de Cocinas", desc: "Cocinas que aprovechan al máximo la luz mediterránea y la ventilación cruzada.", href: "/servicios/reformas-cocinas" },
-  { title: "Reformas de Baños", desc: "Baños accesibles, antideslizantes y con materiales que aguantan el ambiente salino.", href: "/servicios/reformas-banos" },
-  { title: "Reformas de Pisos", desc: "Renovación de pisos vacacionales y de residencia habitual de los años 80 y 90.", href: "/servicios/reformas-pisos" },
-  { title: "Reformas de Locales", desc: "Reformas de comercios y restaurantes en el paseo marítimo y zona del Arc de Berà.", href: "/servicios/reformas-locales" },
+  { title: "Reformas Integrales", desc: "Renovación completa de apartamentos de Roda de Mar y viviendas de urbanización, con instalaciones nuevas.", href: "/servicios/reformas-integrales" },
+  { title: "Reformas de Cocinas", desc: "Cocinas que se abren al comedor y aguantan el ambiente salino de la primera línea.", href: "/servicios/reformas-cocinas" },
+  { title: "Reformas de Baños", desc: "Duchas a ras de suelo en lugar de bañera, con impermeabilización y buena ventilación.", href: "/servicios/reformas-banos" },
+  { title: "Reformas de Pisos", desc: "Ventanas, electricidad, suelos y pintura para segundas residencias que pasan a usarse todo el año.", href: "/servicios/reformas-pisos" },
+  { title: "Reformas de Locales", desc: "Comercios y negocios de temporada preparados para abrir antes del verano.", href: "/servicios/reformas-locales" },
 ];
 
 const faqs = [
-  { q: "¿Reformáis pisos en urbanizaciones de Costa Daurada en Roda de Berà?", a: "Sí, hacemos muchas reformas en bloques y urbanizaciones del litoral. Coordinamos con la presidencia de la comunidad para los horarios de ruido, los usos del montacargas y los días de carga/descarga. Es una gestión que ya tenemos rodada." },
-  { q: "¿Cuánto tiempo lleváis trabajando en Roda de Berà?", a: "Operamos en Roda desde los inicios de la empresa. Conocemos las particularidades constructivas de Roda de Mar, las casas más alejadas hacia el interior y las urbanizaciones de Costa Daurada. Ese conocimiento agiliza el diagnóstico." },
-  { q: "¿Se puede acceder con materiales pesados a las urbanizaciones de Roda?", a: "Algunas comunidades tienen restricciones de tamaño o de horario. Lo verificamos en la visita técnica y planificamos la logística antes de empezar: si hace falta usar plataformas elevadoras o servir cerámicas en horas concretas, lo coordinamos." },
-  { q: "¿Trabajáis en colaboración con interioristas o arquitectos?", a: "Sí, trabajamos a menudo con profesionales que llevan el diseño y nosotros ejecutamos. También ofrecemos un servicio de proyecto + obra integral si prefieres tener un único interlocutor para todo." },
+  { q: "¿Trabajáis en Roda de Berà aunque sea otra comarca?", a: "Sí. Está en el Tarragonès, pero muy cerca de nuestra oficina en El Vendrell por la N-340. Trabajamos con el mismo equipo y los mismos plazos que en el resto de municipios." },
+  { q: "¿Cuándo conviene reformar un apartamento de Roda de Mar?", a: "Entre octubre y abril. El piso no se usa, las comunidades permiten obras con más facilidad y hay margen para tenerlo listo antes de Semana Santa o del verano." },
+  { q: "¿Qué hacéis con el moho de los baños en pisos cerrados?", a: "Ventilación mecánica con sensor de humedad, juntas que no absorben agua y, si hace falta, mejora de las ventanas y aislamiento de las paredes frías. Primero comprobamos si es condensación o una filtración." },
+  { q: "¿Gestionáis la licencia en el Ajuntament de Roda de Berà?", a: "Sí, preparamos la comunicación previa o, cuando corresponde, el proyecto técnico y la solicitud de licencia." },
 ];
 
 export default function ZonaRodaDeBeraPage() {
@@ -42,26 +42,34 @@ export default function ZonaRodaDeBeraPage() {
       ]} />
 
       <HeroService
-        title="Reformas en Roda de Berà — Litoral Costa Daurada"
+        title="Reformas en Roda de Berà, junto al arco romano"
         h1Keyword="Reformas en Roda de Berà"
-        subtitle="Pisos en urbanizaciones de Costa Daurada, casas en Roda de Mar y locales en el centro. Equipo propio, presupuesto fijo y obra cuidada."
+        subtitle="Apartamentos en Roda de Mar, casas en urbanizaciones y viviendas del pueblo. Llegamos por la N-340 desde El Vendrell y trabajamos con el mismo método."
         image="/images/cocina-amplia-reforma-vendrell.webp"
         imageAlt="Reforma de cocina en piso de Roda de Berà"
         badge="Zona de servicio"
         showCTA
-        trustItems={["Cercanía: 18 km", "Costa Daurada", "Coste cerrado"]}
+        trustItems={["Vecino por el sur", "Costa Daurada", "Coste cerrado"]}
       />
 
       <section className="bg-beige px-5 py-16 md:py-24">
         <div className="mx-auto max-w-[900px]">
-          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Roda de Berà · Costa Daurada</p>
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Reformas en Roda de Berà y Costa Daurada</h2>
-          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">A 18 km al sur de El Vendrell, junto al Arc de Berà.</p>
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Roda de Berà · Tarragonès</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Obras en Roda de Berà: playa, urbanización y pueblo</h2>
+          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">Primer municipio del Tarragonès al salir del Baix Penedès por la costa, conocido por el Arc de Berà, junto a la antigua Via Augusta.</p>
           <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
           <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
-            <p>Roda de Berà es uno de los municipios más turísticos de Costa Daurada, con un perfil residencial mixto: pisos en urbanizaciones cerradas frente al mar, casas en Roda de Mar y un núcleo histórico junto al monumento romano del Arc de Berà. La cercanía con Tarragona y la N-340 lo convierte en una zona de mucho movimiento inmobiliario.</p>
-            <p>La mayoría de proyectos que hacemos aquí son sobre pisos costeros de los años 80-90 y adosados en urbanizaciones más recientes. Las particularidades técnicas son las mismas que en el resto del litoral: humedad marina, instalaciones envejecidas y carpintería que ha perdido eficiencia. Sabemos qué materiales aguantan y cuáles no merecen la pena.</p>
-            <p>Desde nuestra sede en El Vendrell tardamos unos veinte minutos por la N-340 o la AP-7. Coordinamos los suministros con proveedores de Tarragona ciudad para optimizar tiempos y costes en la zona sur del Baix Penedès.</p>
+            <p>Aunque administrativamente pertenece al Tarragonès, Roda de Berà forma parte del mismo tramo de costa que Coma-ruga y comparte con ella muchas cosas: playas largas, mucha vivienda de veraneo y una población que en verano se multiplica. El municipio tiene tres caras bien distintas. El pueblo, algo retirado de la costa, con casas tradicionales; Roda de Mar, en primera línea, con bloques de apartamentos y paseo; y una serie de urbanizaciones de viviendas unifamiliares y adosadas repartidas por el término.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Apartamentos de Roda de Mar</h3>
+            <p>Los pisos de la costa son, en su mayoría, segundas residencias de los años setenta a noventa. Las reformas más frecuentes son cambio de bañera por ducha, cocina nueva abierta al comedor, ventanas que cierren de verdad y una instalación eléctrica capaz de soportar aire acondicionado, placa de inducción y horno a la vez. Como en el resto de la costa, el salitre obliga a elegir bien herrajes, carpinterías y pinturas. Tienes más detalle sobre cocinas en <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline">reformas de cocinas</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Viviendas de urbanización</h3>
+            <p>Las casas unifamiliares y adosadas de las urbanizaciones suelen tener más superficie y jardín, y sus necesidades son otras: cubiertas e impermeabilizaciones, fachadas que piden mantenimiento, calefacción poco eficiente, porches cerrados con el tiempo sin mucho criterio. En muchas el mejor resultado sale de plantear la obra de forma global, revisando también aislamiento y climatización.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Casas del pueblo</h3>
+            <p>En el núcleo de Roda de Berà quedan casas entre medianeras de construcción tradicional. Aquí la prioridad es revisar estructura, cubierta y humedades antes de diseñar la distribución nueva, y conservar lo que tenga valor.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Trámites y logística</h3>
+            <p>Las obras se tramitan en el Ajuntament de Roda de Berà, con comunicación previa para las intervenciones menores y licencia con proyecto técnico cuando se afecta a estructura, fachada o distribución de forma importante. En verano, algunas calles de la costa tienen limitaciones de carga y descarga y muchas comunidades restringen las obras, así que conviene planificar entre otoño y primavera. Si estás comparando con la costa del Vendrell, consulta también nuestra página de <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline">reformas de baños</Link>, que es el encargo más repetido en estos apartamentos.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Antes de empezar</h3>
+            <p>Para un apartamento de la costa, pide a la administración de la finca las normas de obra de la comunidad y comprueba si el edificio tiene pendiente alguna reparación de fachada o bajantes. Para una casa de urbanización, revisa el estado de la cubierta y de la impermeabilización de terrazas, que es lo primero que hay que resolver antes de invertir en acabados interiores.</p>
           </div>
         </div>
       </section>
@@ -70,7 +78,7 @@ export default function ZonaRodaDeBeraPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-12">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Servicios</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Reformas en Roda de Berà</h2>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Qué reformamos en Roda de Berà</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((s) => (
@@ -87,8 +95,8 @@ export default function ZonaRodaDeBeraPage() {
       <section className="bg-beige-warm px-5 py-16 md:py-24">
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-12">
-            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Preguntas frecuentes</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Reformas en Roda: dudas resueltas</h2>
+            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Dudas habituales</p>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Preguntas sobre reformas en Roda de Berà</h2>
           </div>
           <div className="space-y-5">
             {faqs.map((faq) => (
@@ -126,8 +134,8 @@ export default function ZonaRodaDeBeraPage() {
 
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Reforma en Roda de Berà o Costa Daurada?</h2>
-          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Pasamos a ver tu vivienda sin coste y te enviamos una valoración detallada por escrito. Trato directo, sin intermediarios.</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Reformas en Roda de Berà o Roda de Mar?</h2>
+          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Pasamos a ver la vivienda sin coste y te entregamos un presupuesto desglosado con el calendario de obra.</p>
           <CTAButtons className="justify-center" />
         </div>
       </section>

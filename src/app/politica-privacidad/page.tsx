@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidad · Clima Reformas Vendrell",
-  description: "Política de privacidad de reformasvendrell.es. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD aplicable a Clima Reformas Vendrell.",
+  title: "Política de Privacidad",
+  description: "Política de privacidad de reformasvendrell.es. Información sobre el tratamiento de datos personales conforme al RGPD y la LOPDGDD aplicable a Clima Reformas.",
   alternates: { canonical: "/politica-privacidad" },
-  robots: { index: true, follow: true },
+  robots: { index: false, follow: true },
 };
 
 export default function PoliticaPrivacidadPage() {

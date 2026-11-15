@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,13 +7,13 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas de Pisos en El Vendrell | CRV",
+  title: "Reformas de Pisos en El Vendrell",
   description:
-    "Reforma de pisos costeros y vacacionales en El Vendrell, Coma-ruga, Sant Salvador. Renovación de instalaciones, suelos, carpintería y acabados. Coste pactado.",
+    "Reforma de pisos en El Vendrell, Coma-ruga y Sant Salvador: instalaciones, distribución, ventanas y acabados, completa o por estancias. Coste por partidas.",
   alternates: { canonical: "/servicios/reformas-pisos" },
   openGraph: {
-    title: "Renovación y Reforma de Pisos a Medida en El Vendrell",
-    description: "Pisos costeros años 70-80 en Coma-ruga, Sant Salvador y la primera línea del Baix Penedès.",
+    title: "Reforma de pisos en El Vendrell",
+    description: "Pisos de playa de los años 60 a 80 y viviendas del centro: reforma completa o por fases, con comunidad y permisos resueltos.",
     url: "/servicios/reformas-pisos",
     images: ["/images/salon-luminoso-mediterraneo-vendrell.webp"],
   },
@@ -29,28 +29,28 @@ export default function ReformasPisosPage() {
       ]} />
       <ServiceSchema
         name="Reformas de Pisos en El Vendrell"
-        description="Reforma completa o por estancias de pisos costeros, vacacionales y de residencia habitual en El Vendrell y municipios del Baix Penedès."
+        description="Reforma completa o por estancias de pisos en El Vendrell, Coma-ruga y Sant Salvador: instalaciones, distribución, carpintería y acabados."
         url="/servicios/reformas-pisos"
         image="/images/salon-luminoso-mediterraneo-vendrell.webp"
       />
-      <HeroService title="Renovación y Reforma de Pisos a Medida en El Vendrell" subtitle="Pisos costeros años 70-80 en Coma-ruga y Sant Salvador, vivienda habitual o apartamento vacacional. Renovamos instalaciones, suelos, carpintería y acabados." image="/images/salon-luminoso-mediterraneo-vendrell.webp" imageAlt="Salón luminoso de piso reformado en El Vendrell" imageTitle="Reforma de pisos en El Vendrell - Clima Reformas Vendrell" h1Keyword="Reformas de pisos en El Vendrell" badge="Pisos costeros" showCTA trustItems={["Reforma parcial o completa", "Equipo propio", "Coste pactado"]} tall />
+      <HeroService title="Tu piso de siempre, preparado para los próximos treinta años" subtitle="Apartamentos de playa, pisos del centro y viviendas que se alquilan por temporada. Renovamos lo que no se ve y lo que sí, todo de una vez o por etapas." image="/images/salon-luminoso-mediterraneo-vendrell.webp" imageAlt="Salón luminoso de piso reformado en El Vendrell" imageTitle="Reforma de pisos en El Vendrell - Clima Reformas Vendrell" h1Keyword="Reformas de pisos en El Vendrell" badge="Pisos costeros" showCTA trustItems={["Reforma parcial o completa", "Equipo propio", "Coste pactado"]} tall />
 
       <section className="bg-beige px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px]">
           <div className="flex flex-col lg:flex-row items-stretch gap-12 lg:gap-16">
             <div className="flex-1 min-w-[300px] flex flex-col justify-center gap-6 py-6">
-              <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Pisos del Baix Penedès</p>
+              <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Pisos del municipio</p>
               <h2 className="font-display font-extrabold text-[36px] md:text-[48px] text-dark leading-[1.05]">
-                Reformas de pisos en El Vendrell y Coma-ruga
+                Cómo son los pisos que reformamos en El Vendrell
               </h2>
               <div className="w-16 h-[3px] bg-accent rounded-full" />
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                La mayoría de pisos que reformamos en El Vendrell tienen entre 40 y 50 años. Coma-ruga y Sant Salvador se levantaron entre los 70 y los 80 con un esquema repetido: pasillo central largo, cocina cerrada que da al patio interior, dos o tres dormitorios mínimos y un único baño con bañera empotrada. Buena ubicación, mala distribución para la vida actual.
+                En la costa del municipio predominan los bloques de apartamentos construidos entre finales de los sesenta y los ochenta, cuando Coma-ruga y Sant Salvador se llenaron de familias de Barcelona, Lleida o Zaragoza que buscaban su piso de verano. En el núcleo urbano, en cambio, hay más edificios de vivienda habitual de varias épocas, desde fincas pequeñas sin ascensor hasta promociones de los noventa cerca de la estación y de las rondas.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Lo que pesa más en estos pisos no es la estética: es la patología. Carpintería de aluminio sin rotura de puente térmico, instalación eléctrica de los 70 sin diferenciales modernos, fontanería con tramos de plomo o hierro galvanizado, filtraciones recurrentes desde fachada y ruido entre vecinos por falta de aislamiento. Cada reforma seria empieza por resolver eso, no por elegir el suelo.
+                Los primeros comparten un esquema muy reconocible: pasillo, cocina independiente junto a una galería, dormitorios justos y un baño con bañera. Los segundos suelen estar mejor distribuidos, pero con instalaciones igual de cansadas. En ambos casos lo que más pesa en el presupuesto no es el suelo que elijas, sino el estado de la electricidad, las tuberías, las ventanas y el aislamiento acústico con los vecinos.
               </p>
-              <p className="font-body font-semibold text-dark text-base">Una reforma bien hecha hoy le da a tu piso 30 años más de vida útil.</p>
+              <p className="font-body font-semibold text-dark text-base">Primero lo que garantiza que el piso funcione; después, lo que lo hace bonito.</p>
               <CTAButtons />
             </div>
             <div className="flex-1 min-w-[300px] min-h-[500px] lg:min-h-[600px] relative rounded-[20px] overflow-hidden">
@@ -63,24 +63,24 @@ export default function ReformasPisosPage() {
       <section className="bg-beige-warm px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
-            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">¿Reforma completa o parcial?</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Tipos de reforma de pisos: integral o parcial</h2>
-            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Dos enfoques distintos según tu piso y tu uso, ambos con coste pactado.</p>
+            <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">¿Todo o por partes?</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Dos maneras de reformar un piso</h2>
+            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">La elección depende del estado de las instalaciones, de tu calendario y de cómo quieras repartir la inversión.</p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             <div className="bg-white rounded-[20px] p-8 flex flex-col gap-4 shadow-sm">
               <span className="font-body text-accent text-xs uppercase tracking-[0.2em] font-bold">Opción A</span>
-              <h3 className="font-display font-extrabold text-2xl text-dark leading-tight">Reforma integral del piso</h3>
+              <h3 className="font-display font-extrabold text-2xl text-dark leading-tight">Reforma completa</h3>
               <p className="font-body text-subtitle text-sm leading-relaxed">
-                Vaciado completo, redistribución si hace falta, instalaciones nuevas, suelos, baños, cocina, carpintería y pintura. La opción que tiene sentido cuando heredas un piso desfasado en Sant Salvador, cuando compras una segunda residencia para 20 años de uso, o cuando quieres que tu vivienda habitual quede como nueva tras décadas.
+                Se vacía el piso y se rehace por dentro: instalaciones, tabiquería si conviene, suelos, cocina, baños, puertas, ventanas y pintura. Es lo razonable cuando la electricidad y el agua tienen décadas, cuando acabas de comprar un piso para vivir muchos años o cuando heredas el apartamento familiar de la playa y quieres empezar de cero. Tiene más detalle en nuestra página de <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reformas integrales</Link>.
               </p>
               <ul className="flex flex-col gap-2 mt-2">
                 {[
-                  "Cambio de instalaciones eléctricas y boletines",
-                  "Nueva fontanería completa y desagües",
-                  "Carpintería exterior con rotura de puente térmico",
-                  "Posibilidad de redistribuir tabiques no portantes",
-                  "Coste pactado por partidas y trato directo",
+                  "Cuadro y circuitos eléctricos nuevos con boletín",
+                  "Agua y desagües sustituidos en todo el piso",
+                  "Ventanas nuevas con rotura de puente térmico",
+                  "Redistribución de tabiques que no sean de carga",
+                  "Presupuesto separado por oficios y un responsable",
                 ].map((it) => (
                   <li key={it} className="flex gap-3 items-start">
                     <svg className="mt-1 flex-shrink-0" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D89564" strokeWidth="2.5"><path d="M5 13l4 4L19 7" /></svg>
@@ -92,17 +92,17 @@ export default function ReformasPisosPage() {
 
             <div className="bg-white rounded-[20px] p-8 flex flex-col gap-4 shadow-sm">
               <span className="font-body text-accent text-xs uppercase tracking-[0.2em] font-bold">Opción B</span>
-              <h3 className="font-display font-extrabold text-2xl text-dark leading-tight">Reforma parcial por estancias</h3>
+              <h3 className="font-display font-extrabold text-2xl text-dark leading-tight">Reforma por estancias</h3>
               <p className="font-body text-subtitle text-sm leading-relaxed">
-                Intervenciones acotadas, una estancia o dos, sin tocar el resto. Lo elige quien acaba de mudarse y necesita el piso operativo desde la primera semana, quien arregla un apartamento de Coma-ruga para alquiler vacacional, o quien va renovando por fases según presupuesto.
+                Se actúa solo donde hace falta: el baño este año, la cocina el siguiente, suelos y pintura cuando toque. Encaja si las instalaciones generales están en buen estado, si necesitas seguir viviendo en el piso o si preparas un apartamento para alquilar de temporada sin parar más de un mes. Lo único que pedimos es planificar el conjunto desde el principio para no deshacer trabajo hecho.
               </p>
               <ul className="flex flex-col gap-2 mt-2">
                 {[
-                  "Cocina, baño o suelos como intervenciones independientes",
-                  "Pintura completa y cambios de carpintería interior",
-                  "Sustitución de ventanas por modelos eficientes",
-                  "Plazos cortos: 2 a 5 semanas según alcance",
-                  "Permite escalonar la inversión en el tiempo",
+                  "Cocina, baño o suelos como obras independientes",
+                  "Pintura general y puertas interiores nuevas",
+                  "Cambio de ventanas sin tocar el resto",
+                  "Obras cortas, de 2 a 5 semanas según alcance",
+                  "Inversión repartida en el tiempo",
                 ].map((it) => (
                   <li key={it} className="flex gap-3 items-start">
                     <svg className="mt-1 flex-shrink-0" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#D89564" strokeWidth="2.5"><path d="M5 13l4 4L19 7" /></svg>
@@ -112,6 +112,19 @@ export default function ReformasPisosPage() {
               </ul>
             </div>
           </div>
+          <div className="max-w-[860px] mx-auto mt-14 space-y-5 font-body text-subtitle text-base leading-relaxed">
+            <h3 className="font-body font-bold text-dark text-xl">Reformar con vecinos: la comunidad también cuenta</h3>
+            <p>
+              Casi todos los pisos están en edificios con comunidad de propietarios, y eso marca la obra tanto como el propio piso. Antes de empezar avisamos a la administración de la finca, colgamos el aviso en el portal con fechas y horario, protegemos ascensor y escalera y acordamos dónde se coloca el contenedor. Si el reglamento de la comunidad limita las obras en julio y agosto, algo habitual en primera línea, lo tenemos en cuenta al fijar el calendario.
+            </p>
+            <p>
+              Hay partidas que no dependen solo de ti: las bajantes generales, la fachada, la barandilla de la terraza o el patio de luces son elementos comunes. Cuando vemos un problema ahí, te ayudamos a explicarlo a la comunidad con fotos y una valoración, para que se pueda resolver a la vez y no después.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">El invierno, buena época para reformar el piso de la playa</h3>
+            <p>
+              Para quien veranea en Coma-ruga o Sant Salvador, reformar entre octubre y abril tiene lógica: el piso no se usa, la comunidad está más tranquila y hay margen para tenerlo listo antes de Semana Santa. Es también cuando más se notan las humedades de condensación en los pisos cerrados, un tema que tratamos en la guía sobre <Link href="/blog/humedad-condensacion-pisos-playa-invierno" className="text-accent font-semibold underline">humedad en pisos de playa en invierno</Link>. Si quieres hacerte una idea de importes antes de llamarnos, revisa el artículo sobre <Link href="/blog/cuanto-cuesta-reformar-piso-vendrell" className="text-accent font-semibold underline">cuánto cuesta reformar un piso en El Vendrell</Link>.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -119,16 +132,16 @@ export default function ReformasPisosPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Estancia por estancia</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Lo que cambia en cada zona del piso</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Qué hacemos en cada parte del piso</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { title: "Salón y comedor", text: "Apertura visual a la cocina, sustitución de ventanas a balcón por carpintería con rotura de puente térmico, suelos en formato XXL para ganar amplitud y pintura mate de calidad. Donde más se nota una reforma." },
-              { title: "Cocina", text: "Demolición, encimera de Dekton o porcelánico, mobiliario hidrófugo con herrajes inox, integración de placa, horno y campana. Si el cliente quiere abrirla al salón, lo gestionamos como obra mayor." },
-              { title: "Baños", text: "Cambio de bañera por plato de obra, mampara fija de cristal templado, sanitarios suspendidos, grifería empotrada y porcelánico de gran formato. Lámina impermeabilizante bajo plato y juntas epoxi en zona de ducha." },
-              { title: "Dormitorios", text: "Carpintería interior nueva o lacada, armarios empotrados a medida con interior de madera técnica, electricidad reorganizada con tomas a pie de cama y suelos cálidos. Aislamiento acústico entre vecinos cuando lo pide la finca." },
-              { title: "Pasillos y entradas", text: "El típico pasillo largo del piso de los 70 se transforma con luz lineal LED, falsos techos parciales y un tratamiento de pintura distinto al resto. Pequeñas intervenciones que cambian la sensación de amplitud." },
-              { title: "Terrazas y balcones", text: "En Coma-ruga y Sant Salvador la terraza es la pieza estrella en verano. Repaso de impermeabilización, gres porcelánico antideslizante apto para exterior, iluminación estanca y barandilla revisada. Punto y aparte." },
+              { title: "Salón y comedor", text: "Es donde se nota el cambio en cuanto entras: suelo continuo de piezas grandes, ventanas que cierran bien hacia la terraza, puntos de luz repartidos y, si la estructura lo permite, conexión directa con la cocina." },
+              { title: "Cocina", text: "Nuevas tomas de agua y electricidad, muebles resistentes a la humedad y encimera que no pide mantenimiento. Si se abre al comedor, revisamos qué permiso corresponde antes de tirar nada." },
+              { title: "Baños", text: "La bañera se sustituye casi siempre por ducha, con impermeabilización bajo el revestimiento y extractor en los baños interiores. Todo el detalle está en la página de reformas de baños." },
+              { title: "Dormitorios", text: "Armarios empotrados aprovechando huecos, enchufes donde realmente se usan, puertas nuevas y, en tabiques compartidos con el vecino, un trasdosado con aislante para ganar silencio." },
+              { title: "Pasillo y recibidor", text: "El pasillo largo y oscuro de los pisos antiguos mejora mucho con luz indirecta, un falso techo parcial para esconder instalaciones y un color que no sea el mismo blanco de toda la casa." },
+              { title: "Terraza y galería", text: "Revisión de la impermeabilización, pavimento antideslizante apto para exterior, iluminación estanca y desagüe limpio. En la galería, tendedero y lavadora ordenados y bien ventilados." },
             ].map((b) => (
               <div key={b.title} className="bg-white/5 border border-white/10 rounded-[16px] p-7 flex flex-col gap-3">
                 <h3 className="font-body font-bold text-white text-lg">{b.title}</h3>
@@ -143,15 +156,15 @@ export default function ReformasPisosPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cómo trabajamos</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Nuestro proceso de reforma de pisos paso a paso</h2>
-            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Cuatro fases sin sobresaltos: planificación, ejecución y entrega revisada.</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">De la primera visita a la entrega de llaves</h2>
+            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Un método sencillo para que sepas siempre qué viene después.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", title: "Visita y patologías", text: "Recorremos el piso contigo, fotografiamos cada estancia, abrimos cajas eléctricas para ver instalación, comprobamos presión de agua y estado de carpintería. Detectamos lo que se ve y lo que no." },
-              { step: "02", title: "Propuesta cerrada", text: "Te entregamos presupuesto detallado por partidas con materiales seleccionados, calendario por fases y plan de pagos. Si quieres comparar gama media frente a gama alta, lo hacemos en dos columnas." },
-              { step: "03", title: "Obra por fases", text: "Demolición, instalaciones ocultas, albañilería, suelos y revestimientos, carpintería e instalaciones vistas, y pintura. En este orden. Te mantenemos informado del avance para que sigas la obra desde donde vivas." },
-              { step: "04", title: "Repaso y entrega", text: "Visita conjunta para revisar acabado por acabado, certificados de instalaciones, prueba de electrodomésticos, limpieza profesional y entrega de la documentación correspondiente. Tu piso ya es tuyo." },
+              { step: "01", title: "Recorrido técnico", text: "Visitamos el piso contigo, abrimos registros, miramos el cuadro, la presión del agua y el estado de las ventanas, y tomamos nota de lo que te gustaría cambiar." },
+              { step: "02", title: "Propuesta por escrito", text: "Recibes un presupuesto partida a partida, con materiales concretos, calendario y forma de pago. Si dudas entre dos niveles de acabado, los presentamos uno al lado del otro." },
+              { step: "03", title: "Ejecución ordenada", text: "Derribo, instalaciones, albañilería, suelos y revestimientos, carpintería y pintura. Si no estás en El Vendrell, te mandamos fotos al cerrar cada fase." },
+              { step: "04", title: "Revisión conjunta", text: "Repasamos el piso juntos estancia por estancia, corregimos cualquier detalle, hacemos la limpieza final y te entregamos certificados y fichas de materiales." },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-[16px] p-7 flex flex-col gap-4 shadow-sm">
                 <span className="font-display font-extrabold text-[48px] text-accent/20 leading-none">{s.step}</span>
@@ -167,15 +180,15 @@ export default function ReformasPisosPage() {
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Preguntas frecuentes</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">FAQ — Reforma de pisos en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Preguntas sobre reformar un piso en El Vendrell</h2>
           </div>
           <div className="flex flex-col gap-4">
             {[
-              { q: "¿Cuánto cuesta reformar un piso en El Vendrell?", a: "Como referencia orientativa por metro cuadrado: renovación parcial (suelos, pintura, una estancia) desde 380 €/m², reforma media (baño, cocina, suelos completos y pintura) desde 520 €/m² y reforma integral con redistribución, instalaciones y carpintería exterior desde 640 €/m². Cada piso parte del estado real de instalaciones, así que te cerramos el coste por partidas tras visitar la vivienda. Sin compromiso." },
-              { q: "¿Reformáis pisos con la comunidad de propietarios encima?", a: "Es nuestro día a día en los edificios de Coma-ruga y Sant Salvador. Hablamos antes con la administración de la finca, presentamos calendario y horarios de trabajo, respetamos el reposo del mediodía si lo marca el reglamento interno y coordinamos accesos por ascensor para no entorpecer a vecinos. Si la finca tiene normas específicas para obras en verano, las cumplimos sin discusión." },
-              { q: "¿Hay que pedir licencia al Ayuntamiento de El Vendrell?", a: "Depende del alcance. Si solo cambias acabados, basta con una comunicación previa que tramitamos nosotros. Si tocas tabiques no portantes o redistribuyes baño y cocina, hay que presentar declaración responsable con memoria firmada por técnico. Si afectas estructura o fachada, va a licencia mayor con proyecto visado. En el Centre histórico de El Vendrell hay normas adicionales que también gestionamos." },
-              { q: "¿Trabajáis con propietarios de apartamentos turísticos?", a: "Sí, es uno de los perfiles que más nos llama en Coma-ruga. Para alquiler vacacional o licencia HUT, optimizamos el coste con materiales que aguantan rotación intensiva en verano: porcelánico antideslizante, mobiliario robusto, grifería de cuerpo macizo y acabados fáciles de limpiar entre estancias. También revisamos el cumplimiento de los requisitos de Generalitat para HUT." },
-              { q: "¿Cuánto tarda la reforma de un piso de 80 m²?", a: "Una intervención parcial: 3-5 semanas. Una reforma media (cocina, baño, suelos, pintura): 7-10 semanas. Una reforma integral con instalaciones nuevas y redistribución: 12-16 semanas. Antes de empezar firmamos un calendario por fases y trabajamos para cumplirlo." },
+              { q: "¿Qué cuesta, de forma orientativa, reformar un piso?", a: "Por metro cuadrado: una actuación parcial (suelos, pintura, alguna estancia) desde 380 €/m²; una reforma media con cocina, baño, suelos y pintura desde 520 €/m²; y una reforma completa con instalaciones, redistribución y ventanas desde 640 €/m². El precio cerrado lo damos tras ver el piso y con todas las partidas separadas." },
+              { q: "¿Qué pasa con los vecinos durante la obra?", a: "Avisamos a la administración de la finca, respetamos los horarios del reglamento interno, protegemos zonas comunes y limpiamos el portal y la escalera cada día. Si la comunidad tiene restricciones de obra en verano, organizamos el calendario para cumplirlas." },
+              { q: "¿Qué permiso necesito del Ajuntament?", a: "Cambiar acabados se tramita como comunicación previa. Si se mueven tabiques o se redistribuyen cocina y baño, el Ajuntament puede requerir documentación técnica adicional, y si se toca estructura o fachada, licencia de obra mayor con proyecto. Lo valoramos en la visita y lo tramitamos nosotros." },
+              { q: "Quiero alquilar el piso por temporadas, ¿qué me recomendáis?", a: "Materiales resistentes y fáciles de limpiar, cocina y baño robustos, buena ventilación y poca decoración frágil. Ten en cuenta que el alquiler turístico en Cataluña exige registro y que cada municipio tiene sus propias condiciones; conviene confirmarlo antes de invertir." },
+              { q: "¿Cuánto dura la reforma de un piso de 80 m²?", a: "Una actuación parcial, de 3 a 5 semanas. Una reforma media con cocina, baño, suelos y pintura, de 7 a 10. Una reforma completa con instalaciones nuevas y cambios de distribución, de 12 a 16. Las fechas las dejamos por escrito antes de empezar." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
@@ -188,15 +201,15 @@ export default function ReformasPisosPage() {
             ))}
           </div>
           <p className="font-body text-subtitle/80 text-xs italic text-center mt-8 max-w-[640px] mx-auto">
-            Precios orientativos por metro cuadrado. Cada piso se valora en visita técnica gratuita y se cierra por partidas.
+            Importes orientativos por metro cuadrado. Cada piso se presupuesta tras la visita, partida por partida.
           </p>
         </div>
       </section>
 
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">Solicita presupuesto para reformar tu piso</h2>
-          <p className="font-body text-white/90 text-lg max-w-[500px]">Coordinamos la primera visita en El Vendrell, Coma-ruga, Sant Salvador o donde tengas el piso. Te entregamos propuesta detallada por escrito.</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">¿Quedamos para ver tu piso?</h2>
+          <p className="font-body text-white/90 text-lg max-w-[500px]">Nos acercamos a tu piso en el centro, en la playa o en el municipio vecino y te dejamos una propuesta detallada por escrito.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
             <Link href="/contacto" className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-beige transition-colors">Pedir valoración<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg></Link>
             <a href="https://wa.me/34623760710" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 border-2 border-white/30 text-white px-7 py-4 rounded-full font-body font-bold text-[15px] hover:bg-white/10 transition-all">

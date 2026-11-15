@@ -4,13 +4,13 @@ import Link from "next/link";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Tendencias en cocinas 2026 para pisos del Baix Penedès | CRV",
+  title: { absolute: "Tendencias en cocinas 2026 para pisos del Baix Penedès" },
   description:
-    "Tendencias en cocinas 2026: islas centrales, materiales hidrófugos, iluminación LED y soluciones para pisos costeros de El Vendrell, Coma-ruga y Calafell.",
+    "Cocinas 2026 en El Vendrell: cocina abierta con cabeza, penínsulas, encimeras compactas, colores cálidos y luz por zonas, adaptadas a pisos junto al mar.",
   alternates: { canonical: "/blog/tendencias-cocinas-2026" },
   openGraph: {
     title: "Tendencias en cocinas 2026 para pisos del Baix Penedès",
-    description: "Diseño, materiales y distribución para cocinas que duran junto al mar.",
+    description: "Qué tendencias de cocina tienen sentido en un apartamento de playa o una casa del centro del Vendrell, y cuáles conviene evitar.",
     url: "/blog/tendencias-cocinas-2026",
     type: "article",
     images: ["/images/cocina-isla-tendencias-vendrell.webp"],
@@ -22,7 +22,7 @@ export default function BlogTendenciasCocinas() {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: "Tendencias en cocinas 2026 para pisos del Baix Penedès",
-    description: "Análisis de las tendencias de diseño y materiales en cocinas para pisos costeros del Baix Penedès.",
+    description: "Tendencias de distribución, materiales, color e iluminación en cocinas, filtradas para pisos de costa y casas del Vendrell.",
     image: "https://reformasvendrell.es/images/cocina-isla-tendencias-vendrell.webp",
     author: { "@type": "Organization", name: "Clima Reformas Vendrell" },
     publisher: {
@@ -31,7 +31,7 @@ export default function BlogTendenciasCocinas() {
       name: "Clima Reformas Vendrell",
     },
     datePublished: "2026-02-26",
-    dateModified: "2026-02-26",
+    dateModified: "2026-11-15",
   };
 
   return (
@@ -52,7 +52,7 @@ export default function BlogTendenciasCocinas() {
             <h1 className="font-display font-extrabold text-[28px] md:text-[44px] lg:text-[56px] text-white leading-[1.1]">
               Tendencias en cocinas 2026 para pisos del Baix Penedès
             </h1>
-            <p className="text-white/65 text-sm">26 febrero 2026 · 7 min de lectura</p>
+            <p className="text-white/65 text-sm">26 febrero 2026 · Actualizado el 15 noviembre 2026 · 8 min de lectura</p>
           </div>
         </div>
       </section>
@@ -61,42 +61,61 @@ export default function BlogTendenciasCocinas() {
         <div className="mx-auto max-w-[780px]">
           <div className="font-body text-dark space-y-6 text-base leading-relaxed">
             <p className="text-lg text-subtitle">
-              Las cocinas que se proyectan en 2026 para los pisos costeros del Baix Penedès tienen una premisa clara: aprovechar la luz mediterránea, integrarse con el salón y resistir la humedad marina sin renunciar al diseño. Repasamos las tendencias que más nos están pidiendo en obras recientes en El Vendrell, Coma-ruga, Sant Salvador y Calafell Platja.
+              Cada año las revistas de interiorismo anuncian nuevas tendencias en cocinas, y cada año alguna de ellas llega a las obras que hacemos en El Vendrell. No todas encajan igual en un apartamento de 65 m² a dos calles de la playa de Coma-ruga que en un adosado con jardín o en una casa estrecha del casco antiguo. En este artículo repasamos las ideas que más nos piden en 2026 y te contamos, desde la obra, cuáles funcionan junto al mar y cuáles conviene tomarse con calma.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">1. Cocinas abiertas al salón</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">1. La cocina abierta, pero con matices</h2>
             <p>
-              En pisos años 70-80 de primera línea, derribar el tabique entre cocina y salón es la intervención que más cambia la sensación de espacio. Aporta luz natural a una zona originalmente cerrada y permite cocinar mientras la familia sigue conectada. Eso sí, hay que verificar siempre que el muro no sea de carga: muchos pisos de Coma-ruga lo son.
+              Abrir la cocina al comedor sigue siendo la petición estrella en los pisos de playa, porque las cocinas originales de esos bloques son pequeñas y oscuras. La novedad es que cada vez más gente quiere poder cerrarla a ratos: una puerta corredera de vidrio, un panel plegable o un tabique a media altura que separe sin aislar del todo. Así se gana luz y conversación, pero el olor de la fritura no llega al sofá ni el ruido del lavavajillas al salón.
+            </p>
+            <p>
+              Antes de tirar nada hay que confirmar que el tabique no es de carga y qué trámite pide el Ajuntament; en la página de <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline">reformas de cocinas</Link> explicamos cómo lo gestionamos.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">2. Isla central como protagonista</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">2. Península antes que isla en pisos pequeños</h2>
             <p>
-              Cuando el piso tiene 80 m² o más, la isla con encimera porcelánica de gran formato se ha convertido en la pieza estrella. Suma superficie de trabajo, integra placa de inducción y se convierte en mesa informal de desayuno. En cocinas más pequeñas, una península sirve la misma función ocupando menos.
+              La isla central queda espectacular en las fotos, pero necesita espacio alrededor para circular y abrir cajones. En la mayoría de pisos de la costa no lo hay. La alternativa que más estamos instalando es la península: un brazo de encimera unido al resto de la cocina que sirve de barra de desayuno, separa visualmente del comedor y aporta superficie de trabajo y almacenaje sin robar paso. En los chalets de urbanización, con cocinas de más de quince metros, la isla sí tiene sentido, sobre todo si se conecta con el porche o el jardín.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">3. Materiales pensados para la humedad marina</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">3. Encimeras que no piden cuidados</h2>
             <p>
-              Lo que más hemos cambiado en los últimos años: dejar atrás los frentes laminados estándar y usar tableros hidrófugos con cantos sellados, herrajes inox 316 (no 304), encimeras porcelánicas o de cuarzo (la madera natural sufre demasiado con la sal) y silicones específicos antimoho. Cuesta un 8-12% más, pero la cocina dura el doble.
+              El mármol y la madera maciza siguen gustando, pero en una vivienda de costa que pasa meses cerrada dan más trabajo del que la mayoría quiere asumir. Lo que se impone son las superficies compactas sinterizadas y los porcelánicos de gran formato: no absorben manchas, toleran el calor y no cambian de color con el sol de poniente que entra por la terraza. Los acabados que imitan piedra natural o cemento, en tonos arena y grises cálidos, son los más elegidos este año.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">4. Iluminación LED en capas</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">4. Colores cálidos y madera, sin miedo a la humedad</h2>
             <p>
-              Tres tipos de luz: ambiental con tira LED en techo perimetral, focal con bañadores empotrados sobre la encimera y decorativa con suspensiones bajas sobre la isla. Toda regulable y con temperaturas de color cálidas (3000K) para que la cocina respire calma incluso al mediodía con persianas medio cerradas.
+              Después de años de cocinas blancas y grises, vuelven los verdes suaves, los terracota apagados y la madera clara. Encaja bien con la luz mediterránea y con el carácter de las casas del centro. El truco en primera línea es elegir frentes con acabado de madera sobre tablero hidrófugo, o madera natural bien barnizada, y reservar la madera maciza para zonas alejadas del fregadero. Los tiradores integrados o de perfil en acero inoxidable evitan los herrajes que el salitre oxida.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">5. Paletas naturales con un toque de color</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">5. Almacenaje hasta el techo y despensa escondida</h2>
             <p>
-              Maderas claras combinadas con verdes mineralizados, terracotas suaves o azules petróleo. Salimos del blanco total y de los grises industriales. En pisos con vistas al mar, tonalidades arenosas y verdes pino se integran con el paisaje del Garraf y el Penedès. Es una decisión de diseño que envejece bien.
+              En cocinas pequeñas, cada centímetro cuenta. Los muebles altos que llegan hasta el techo, las columnas con despensa extraíble y los rincones con herrajes giratorios permiten guardar mucho más sin ocupar suelo. En las casas del casco antiguo, donde los techos son altos, aprovechar esa altura con un segundo nivel de armarios para lo que se usa poco es una solución que repetimos a menudo.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">6. Electrodomésticos integrados y de alta eficiencia</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">6. Luz pensada por zonas</h2>
             <p>
-              La placa con extracción integrada gana terreno en cocinas abiertas al salón porque elimina la campana visible. Frigoríficos panelables, lavavajillas integrados en el mobiliario y hornos compactos que combinan microondas y vapor son ya estándar en gama media. La eficiencia energética A o superior es prácticamente obligatoria.
+              El fluorescente en el centro del techo ha desaparecido de nuestras obras. Ahora se diseña la iluminación en capas: tira LED bajo los muebles altos para trabajar sin sombras, focos empotrados para la luz general, una lámpara colgante sobre la península o la mesa y, a veces, una luz indirecta en el zócalo que sirve de piloto por la noche. Lo importante es dejar circuitos separados y la preinstalación hecha antes de alicatar.
             </p>
 
-            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">¿Quieres aplicar alguna en tu cocina?</h2>
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">7. Electrodomésticos integrados y extracción seria</h2>
             <p>
-              Si vives en el Baix Penedès y estás pensando en renovar tu cocina este año, podemos visitar tu piso o casa, valorar qué tendencias encajan con tu espacio y entregarte una propuesta clara antes de empezar. <Link href="/contacto" className="text-accent font-semibold underline">Pídenos una valoración</Link> sin compromiso.
+              Los frigoríficos y lavavajillas integrados detrás de un frente igual al resto de muebles siguen ganando terreno, porque en una cocina abierta reducen el ruido visual. La otra cara de la cocina abierta es la extracción: una campana bien dimensionada, con salida al exterior si el edificio lo permite, es imprescindible. En bloques sin conducto propio buscamos alternativas, pero conviene saberlo antes de decidir la distribución.
+            </p>
+
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">Lo que no recomendamos junto al mar</h2>
+            <ul className="list-disc pl-6 space-y-3">
+              <li>Herrajes y tiradores de acero sin tratar o latón barato: se oxidan en pocas temporadas.</li>
+              <li>Tableros de aglomerado normal en los módulos bajos del fregadero y el lavavajillas.</li>
+              <li>Encimeras porosas sin sellar en viviendas que pasan meses sin uso.</li>
+              <li>Cocinas abiertas sin una campana adecuada: el olor acaba en toda la casa.</li>
+            </ul>
+
+            <h2 className="font-display font-extrabold text-[26px] md:text-[34px] text-dark mt-12 mb-4">Cómo aplicarlo a tu cocina</h2>
+            <p>
+              Una tendencia solo merece la pena si mejora cómo usas la cocina. Nuestro consejo es empezar por la distribución y las instalaciones, elegir después los materiales que aguantan el ambiente de la costa y dejar para el final los detalles de moda, que son los más fáciles de cambiar dentro de unos años. Si la cocina forma parte de una renovación más amplia del piso, plantéalo junto con el resto; lo explicamos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link>.
+            </p>
+            <p>
+              Si tienes una cocina en El Vendrell o en el Baix Penedès y quieres saber qué tendría sentido hacer, <Link href="/contacto" className="text-accent font-semibold underline">escríbenos</Link>: pasamos a medirla y te enseñamos opciones sobre plano.
             </p>
           </div>
         </div>
@@ -104,10 +123,10 @@ export default function BlogTendenciasCocinas() {
 
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Renovamos tu cocina este año?</h2>
-          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Visitamos tu piso o casa en El Vendrell o el Baix Penedès, te explicamos qué tendencias encajan con tu espacio y diseñamos la cocina contigo.</p>
-          <Link href="/servicios/reformas-cocinas" className="inline-flex items-center gap-2 bg-dark text-white px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-dark-card transition-colors">
-            Ver servicio de cocinas <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Diseñamos tu nueva cocina?</h2>
+          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Vamos a medirla sin coste y te proponemos una distribución que funcione en tu casa.</p>
+          <Link href="/contacto" className="inline-flex items-center gap-2 bg-dark text-white px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-dark-card transition-colors">
+            Pedir visita <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
           </Link>
         </div>
       </section>

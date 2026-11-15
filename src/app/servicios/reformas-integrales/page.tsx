@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTAButtons from "@/components/CTAButtons";
@@ -7,13 +7,13 @@ import ServiceSchema from "@/components/ServiceSchema";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas Integrales en El Vendrell | CRV",
+  title: "Reformas Integrales en El Vendrell",
   description:
-    "Reforma integral de pisos costeros, casas de pueblo y segundas residencias en El Vendrell y Baix Penedès. Coste pactado, equipo propio y trato cercano.",
+    "Reforma integral en El Vendrell: pisos de Coma-ruga y Sant Salvador, casas del Centre y adosados. Un responsable de obra, permisos y coste por partidas.",
   alternates: { canonical: "/servicios/reformas-integrales" },
   openGraph: {
-    title: "Reforma Integral de Viviendas en El Vendrell · CRV",
-    description: "Renovación llave en mano para pisos, casas de pueblo y segundas residencias en el Baix Penedès.",
+    title: "Reforma integral de viviendas en El Vendrell",
+    description: "Vaciado, instalaciones nuevas y acabados en pisos, casas de pueblo y adosados del Baix Penedès, con un único responsable de obra.",
     url: "/servicios/reformas-integrales",
     images: ["/images/reforma-integral-vivienda-vendrell.webp"],
   },
@@ -29,14 +29,14 @@ export default function ReformasIntegralesPage() {
       ]} />
       <ServiceSchema
         name="Reformas Integrales en El Vendrell"
-        description="Reforma integral llave en mano de pisos costeros, casas de pueblo y segundas residencias en El Vendrell y todo el Baix Penedès."
+        description="Reforma integral de pisos de playa, casas de pueblo y adosados en El Vendrell y el Baix Penedès, con permisos municipales y coste cerrado por partidas."
         url="/servicios/reformas-integrales"
         image="/images/reforma-integral-vivienda-vendrell.webp"
       />
 
       <HeroService
-        title="Reforma Integral de Viviendas en El Vendrell: Proyecto Llave en Mano"
-        subtitle="Renovamos tu piso costero, casa de pueblo o segunda residencia desde el primer alicatado hasta el último interruptor. Coste pactado y obra coordinada por una sola persona."
+        title="Vaciamos, renovamos y te devolvemos la casa entera"
+        subtitle="Instalaciones, distribución, suelos, cocina, baños y carpintería en una sola obra. Para el piso de Coma-ruga que lleva cuarenta veranos igual o la casa del Centre que heredaste con todo por hacer."
         image="/images/reforma-integral-vivienda-vendrell.webp"
         imageAlt="Reforma integral llave en mano en El Vendrell"
         imageTitle="Reforma integral residencial en El Vendrell"
@@ -55,17 +55,17 @@ export default function ReformasIntegralesPage() {
                 Reforma integral residencial
               </p>
               <h2 className="font-display font-extrabold text-[36px] md:text-[48px] text-dark leading-[1.05]">
-                Reforma integral llave en mano en El Vendrell
+                Cuándo compensa reformarlo todo de una vez
               </h2>
               <div className="w-16 h-[3px] bg-accent rounded-full" />
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Tu vivienda renovada sin gestionar diez gremios distintos. Coordinar una reforma integral cuando trabajas en otra ciudad o pasas pocos días al mes en El Vendrell es agotador. Nos hacemos cargo de todo: derribo, fontanería, eléctrica, carpintería, suelos, pintura, sanitarios y acabados. Un único contrato, un único interlocutor.
+                Hay viviendas en las que arreglar por partes sale caro. Si el cuadro eléctrico todavía tiene fusibles de porcelana, las tuberías son de hierro galvanizado y el baño pierde agua hacia el vecino de abajo, cambiar solo la cocina es poner un parche encima de otro. En esos casos lo sensato es vaciar, rehacer todo lo que va por dentro de paredes y suelos y, después, decidir acabados con la tranquilidad de que la base está nueva.
               </p>
               <p className="font-body text-subtitle text-base leading-relaxed max-w-[520px]">
-                Trabajamos sobre pisos costeros años 70-80 (Coma-ruga, Sant Salvador, Calafell Platja, Cunit Platja), casas de pueblo del centro histórico de El Vendrell o L&apos;Arboç, y viviendas en zonas residenciales como El Tancat o Segur de Calafell. Cada tipología pide soluciones técnicas específicas.
+                En El Vendrell lo vemos sobre todo en tres situaciones: apartamentos de veraneo de Coma-ruga y Sant Salvador que pasan a una nueva generación, casas entre medianeras del casco antiguo compradas para vivir todo el año, y adosados de Sant Vicenç de Calders o El Tancat que piden una actualización completa tras veinte o treinta años de uso familiar. Si lo tuyo es un piso y dudas entre ir por fases o hacerlo todo, en la página de <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link> comparamos las dos opciones.
               </p>
               <p className="font-body font-semibold text-dark text-base">
-                Coste fijo desde la firma del proyecto. Sin partidas ocultas.
+                Firmas un presupuesto desglosado; lo que no aparece en él no se cobra sin hablarlo antes contigo.
               </p>
               <CTAButtons />
             </div>
@@ -84,20 +84,48 @@ export default function ReformasIntegralesPage() {
         </div>
       </section>
 
+      <section className="bg-beige-warm px-5 py-20 md:py-28">
+        <div className="mx-auto max-w-[900px]">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cada casa, su punto de partida</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[44px] text-dark leading-[1.05] mb-8">Lo que nos solemos encontrar al abrir paredes en El Vendrell</h2>
+          <div className="space-y-5 font-body text-subtitle text-base leading-relaxed">
+            <h3 className="font-body font-bold text-dark text-xl">Apartamentos de playa de los años 60 y 70</h3>
+            <p>
+              Los bloques de Coma-ruga, Sant Salvador y Els Masos se levantaron deprisa para el turismo de verano. Suelen tener terrazo o gres pequeño, cocinas cerradas de cuatro o cinco metros, un solo baño con bañera y ventanas correderas de aluminio sin rotura térmica. Al picar aparecen bajantes de fibrocemento en patinillos comunitarios, cableado sin toma de tierra en algunas habitaciones y forjados de viguetas que hay que revisar si la terraza ha filtrado durante años. Nada de esto es grave si se presupuesta desde el principio; lo caro es descubrirlo a mitad de obra.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">Casas de pueblo del casco antiguo</h3>
+            <p>
+              Alrededor de la Rambla, la plaza Vella y las calles que bajan hacia la riera quedan casas estrechas de dos o tres alturas, con muros de carga gruesos, vigas de madera y, a menudo, un patio trasero. Aquí la reforma integral exige mirar la estructura antes que los acabados: estado de las cabezas de las vigas, humedad por capilaridad en planta baja, escalera que no cumple ninguna medida actual. Muchas veces conviene conservar el suelo hidráulico o dejar la viga vista, y eso condiciona por dónde pasan las nuevas instalaciones.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">Adosados y chalets de urbanización</h3>
+            <p>
+              En El Tancat, Mas Borràs, Les Madrigueres o la zona de Sant Vicenç de Calders hay viviendas unifamiliares de los 80 y 90 con más metros pero problemas distintos: cubiertas que necesitan impermeabilización, calefacción de gasoil o eléctrica por acumuladores, cocinas cerradas que la familia quiere abrir al jardín. La obra suele incluir carpintería exterior, aislamiento y climatización, partidas que a veces encajan en las <Link href="/blog/ayudas-rehabilitacion-energetica-baix-penedes" className="text-accent font-semibold underline">líneas de ayuda a la rehabilitación energética</Link> si se plantean bien desde el proyecto.
+            </p>
+            <h3 className="font-body font-bold text-dark text-xl">Permisos en el Ajuntament del Vendrell</h3>
+            <p>
+              Una reforma interior sin tocar estructura ni fachada suele tramitarse como comunicación previa de obras. Cuando hay cambio de distribución importante, apertura de huecos, actuación sobre muros de carga o sobre la fachada, el Ajuntament pide proyecto firmado por técnico y licencia de obra mayor. Si el contenedor ocupa la calle, se solicita también el permiso de ocupación de vía pública. Preparamos la documentación y te avisamos de los plazos reales antes de fijar la fecha de inicio, porque en verano y en Navidad la tramitación se alarga.
+            </p>
+            <p>
+              Trabajamos también fuera del término municipal: en las casas de piedra de <Link href="/zonas/reformas-arboc" className="text-accent font-semibold underline">L&apos;Arboç</Link> o en las viviendas unifamiliares de <Link href="/zonas/reformas-banyeres-penedes" className="text-accent font-semibold underline">Banyeres del Penedès</Link> la reforma integral sigue el mismo método, con los trámites de cada ayuntamiento.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="bg-dark px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Beneficios</p>
             <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">
-              Por qué tiene sentido la reforma integral
+              Qué ganas haciéndolo en una sola obra
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {[
-              { title: "Revaloriza tu vivienda", text: "Un piso reformado en Coma-ruga o Calafell Platja se vende un 25-40% más caro y se alquila en plataformas vacacionales con tarifa premium. La inversión retorna." },
-              { title: "Un solo contrato", text: "Olvídate de coordinar fontanero, electricista, albañil y carpintero por separado. Un proyecto, un cronograma, un presupuesto y un responsable al que llamar." },
-              { title: "Eficiencia energética", text: "Aprovechamos la obra para cambiar carpinterías por aluminio o PVC con rotura de puente térmico, reforzar aislamientos y modernizar climatización. Menos gasto en facturas." },
-              { title: "Materiales pensados para la costa", text: "Porcelánicos antideslizantes, pinturas hidrófugas, herrajes inox, sellados resistentes a sal. La humedad marina del Mediterráneo no perdona los atajos." },
+              { title: "Instalaciones nuevas de verdad", text: "Electricidad con circuitos separados y boletín, fontanería en multicapa y desagües con pendiente correcta. Lo que no se ve queda resuelto para décadas y no depende de remiendos antiguos." },
+              { title: "Una distribución pensada para ti", text: "Con la casa vacía es el momento de mover el baño, abrir la cocina al comedor o ganar un vestidor. Hacerlo después, con suelos nuevos puestos, cuesta el doble y ensucia el triple." },
+              { title: "Menos frío en invierno, menos calor en agosto", text: "Cambiar ventanas, aislar la fachada por dentro o el techo bajo cubierta y renovar la climatización tiene más sentido en la misma obra que por separado. Las facturas lo notan desde el primer invierno." },
+              { title: "Acabados que soportan el ambiente marino", text: "En la primera línea el aire lleva sal y la humedad relativa es alta casi todo el año. Elegimos pinturas transpirables, herrajes de acero inoxidable y juntas que no ennegrecen para que el resultado no envejezca antes de tiempo." },
             ].map((b) => (
               <div key={b.title} className="flex gap-5 bg-white/5 border border-white/10 rounded-[16px] p-7">
                 <div className="w-14 h-14 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
@@ -117,15 +145,15 @@ export default function ReformasIntegralesPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cómo lo hacemos</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Nuestro proceso de reforma integral paso a paso</h2>
-            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">El método CRV en cuatro pasos: planificación seria y resultados visibles cada semana.</p>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Las cuatro fases de una reforma integral</h2>
+            <p className="font-body text-subtitle text-base md:text-lg max-w-[560px] mx-auto mt-4">Un orden de trabajo que evita repetir tareas y te permite saber en qué punto está la obra.</p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
-              { step: "01", title: "Visita técnica gratuita", text: "Pasamos por tu piso o casa en El Vendrell, evaluamos el estado real, escuchamos tu plan y resolvemos dudas técnicas en el momento." },
-              { step: "02", title: "Proyecto y presupuesto", text: "Elaboramos planos, fichas de materiales y cronograma. Firmamos un coste pactado por partidas para que sepas dónde va cada euro." },
-              { step: "03", title: "Ejecución coordinada", text: "Equipo propio que avanza por fases. Te mantenemos informado del avance para que sigas la obra aunque vivas fuera de la comarca." },
-              { step: "04", title: "Entrega cuidada", text: "Te devolvemos la vivienda con limpieza profesional, revisión punto a punto y la documentación correspondiente al cierre de obra." },
+              { step: "01", title: "Diagnóstico en la vivienda", text: "Abrimos el cuadro eléctrico, miramos contadores y llaves de paso, buscamos manchas de humedad y medimos. Te explicamos qué está bien, qué hay que cambiar sí o sí y qué es opcional." },
+              { step: "02", title: "Proyecto y partidas", text: "Plano de la nueva distribución, listado de materiales con referencias y un presupuesto separado por oficios. Así puedes subir o bajar acabados sabiendo cuánto mueve cada decisión." },
+              { step: "03", title: "Obra por oficios", text: "Derribo, instalaciones empotradas, albañilería, revestimientos, carpintería y pintura, en ese orden. Si no vives aquí, te enviamos fotos de cada fase antes de cerrar paredes." },
+              { step: "04", title: "Repaso y llaves", text: "Recorremos la casa contigo con una lista de comprobación, probamos enchufes, grifos y desagües, limpiamos a fondo y te entregamos boletines y fichas de los materiales instalados." },
             ].map((s) => (
               <div key={s.step} className="bg-white rounded-[16px] p-7 flex flex-col gap-4 shadow-sm">
                 <span className="font-display font-extrabold text-[48px] text-accent/20 leading-none">{s.step}</span>
@@ -141,10 +169,10 @@ export default function ReformasIntegralesPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Qué cubre el servicio</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Lo que incluye una reforma integral</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Partidas incluidas en la reforma integral</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {["Demolición y gestión de residuos", "Fontanería y desagües nuevos", "Eléctrica certificada y boletines", "Suelos y revestimientos cerámicos", "Carpintería interior y exterior", "Pintura y acabados finales"].map((item) => (
+            {["Derribo, contenedor y residuos a planta", "Red de agua y desagües renovados", "Cuadro y circuitos eléctricos con boletín", "Solados, alicatados y rodapiés", "Puertas, armarios y ventanas", "Pintura, limpieza y repaso final"].map((item) => (
               <div key={item} className="flex items-center gap-4 bg-white rounded-[12px] p-5 shadow-sm">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D89564" strokeWidth="2"><path d="M5 13l4 4L19 7" /></svg>
@@ -160,14 +188,14 @@ export default function ReformasIntegralesPage() {
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-14">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Preguntas frecuentes</p>
-            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">FAQ — Reforma integral en El Vendrell</h2>
+            <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-dark leading-[1.05]">Dudas sobre la reforma integral en El Vendrell</h2>
           </div>
           <div className="flex flex-col gap-4">
             {[
-              { q: "¿Cuánto cuesta una reforma integral en El Vendrell?", a: "Trabajamos con tres rangos orientativos por metro cuadrado, según acabados: gama esencial desde 450 €/m², gama media-alta desde 580 €/m² y gama premium desde 720 €/m². Cada vivienda parte del estado real de instalaciones y estructura, así que el cierre del coste se hace siempre tras la visita técnica con detalle por partidas. Sin sorpresas a mitad de obra." },
-              { q: "¿Cuánto tiempo lleva una reforma integral?", a: "Un piso costero de 70-90 m² lleva entre 8 y 12 semanas. Una casa de pueblo de tres plantas, 14-20 semanas. En la primera visita marcamos un calendario por fases y nos comprometemos con él." },
-              { q: "¿Tengo que mudarme durante la obra?", a: "Para una reforma integral con instalaciones nuevas y movimiento de tabiques, sí. Si tu vivienda en El Vendrell es segunda residencia, no es problema. Si es la habitual, planificamos la obra en periodos de vacaciones o coordinamos un alojamiento temporal." },
-              { q: "¿Los materiales están incluidos en el presupuesto?", a: "Sí. El coste pactado cubre la mano de obra del equipo propio, todos los materiales seleccionados (cerámica, sanitarios, mobiliario base, pintura, carpintería), retirada de escombros y limpieza final. Si quieres acabados premium fuera del presupuesto base, te lo presupuestamos aparte." },
+              { q: "¿Qué precio orientativo tiene una reforma integral?", a: "Manejamos tres niveles por metro cuadrado según acabados: esencial desde 450 €/m², media-alta desde 580 €/m² y premium desde 720 €/m². La cifra final depende mucho de lo que haya detrás de los azulejos, por eso solo la cerramos después de visitar la vivienda y con el desglose por partidas delante." },
+              { q: "¿Cuántas semanas dura?", a: "Como referencia, un apartamento de 70 a 90 m² se mueve entre 8 y 12 semanas de obra, y una casa de pueblo de tres plantas entre 14 y 20. A eso hay que sumar el tiempo de permisos si la obra necesita licencia. El calendario por fases te lo damos por escrito antes de empezar." },
+              { q: "¿Puedo seguir viviendo en casa mientras dura?", a: "En una reforma integral no es recomendable: hay días sin agua, sin luz y con mucho polvo. Si es tu segunda residencia no supone problema; si es tu vivienda habitual, buscamos el momento del año que mejor te encaje o te ayudamos a organizar la obra por plantas cuando la casa lo permite." },
+              { q: "¿Qué entra en el precio y qué no?", a: "Entra la mano de obra, los materiales que acordamos en el listado, el contenedor, la gestión de residuos y la limpieza final. Si durante la obra decides subir de gama un suelo o añadir un armario, te pasamos el importe antes de pedirlo." },
             ].map((faq, i) => (
               <details key={i} className="group bg-white rounded-[12px] shadow-sm overflow-hidden">
                 <summary className="flex items-center gap-4 p-6 cursor-pointer list-none [&::-webkit-details-marker]:hidden">
@@ -182,15 +210,15 @@ export default function ReformasIntegralesPage() {
             ))}
           </div>
           <p className="font-body text-subtitle/80 text-xs italic text-center mt-8 max-w-[640px] mx-auto">
-            Precios orientativos por metro cuadrado. Cada proyecto se valora en visita técnica gratuita y se cierra por partidas.
+            Importes orientativos por metro cuadrado. El precio definitivo se fija tras la visita, partida por partida.
           </p>
         </div>
       </section>
 
       <section className="bg-accent px-5 py-20 md:py-24">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">¿Listo para una reforma integral en El Vendrell?</h2>
-          <p className="font-body text-white/90 text-lg max-w-[520px]">Visita técnica gratuita y valoración por partidas. Sin obligación de contratar.</p>
+          <h2 className="font-display font-extrabold text-[32px] md:text-[48px] text-white leading-[1.05]">¿Hablamos de tu reforma integral?</h2>
+          <p className="font-body text-white/90 text-lg max-w-[520px]">Pasamos a ver la vivienda sin coste y te dejamos un presupuesto desglosado. Decides con calma.</p>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
             <Link href="/contacto" className="inline-flex items-center gap-2 bg-white text-accent px-8 py-4 rounded-full font-body font-bold text-[15px] hover:bg-beige transition-colors">
               Pedir valoración

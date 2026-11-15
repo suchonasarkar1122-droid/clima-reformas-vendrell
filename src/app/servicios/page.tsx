@@ -5,13 +5,13 @@ import CTAButtons from "@/components/CTAButtons";
 import HeroService from "@/components/HeroService";
 
 export const metadata: Metadata = {
-  title: "Servicios de Reformas en El Vendrell | CRV",
+  title: "Servicios de Reformas en El Vendrell",
   description:
-    "Reformas integrales, cocinas, baños, pisos y locales en El Vendrell y Baix Penedès. Equipo propio, coste pactado y trato cercano. Llama: 877 278 163.",
+    "Qué reformamos en El Vendrell: viviendas completas, cocinas, baños, pisos y locales. Cómo elegir el tipo de obra y qué incluye cada servicio. 877 278 163.",
   alternates: { canonical: "/servicios" },
   openGraph: {
-    title: "Servicios de Reformas · Clima Reformas Vendrell",
-    description: "Todas nuestras especialidades en reformas residenciales y locales en el Baix Penedès.",
+    title: "Servicios de reforma en El Vendrell",
+    description: "Cinco tipos de obra para viviendas y negocios del Baix Penedès, con un único responsable y presupuesto por partidas.",
     url: "/servicios",
     images: ["/images/hero-reforma-luminosa-vendrell.webp"],
   },
@@ -24,7 +24,7 @@ const services = [
     image: "/images/reforma-integral-vivienda-vendrell.webp",
     alt: "Reforma integral de vivienda en El Vendrell",
     description:
-      "Renovación completa de pisos costeros, casas de pueblo y segundas residencias. Equipo propio y coste pactado de antemano.",
+      "Vaciar y rehacer la vivienda entera: instalaciones, distribución y acabados. Para casas del casco antiguo, apartamentos heredados y adosados.",
   },
   {
     title: "Reformas de Cocinas",
@@ -32,7 +32,7 @@ const services = [
     image: "/images/cocina-amplia-reforma-vendrell.webp",
     alt: "Reforma de cocina moderna en El Vendrell",
     description:
-      "Cocinas a medida pensadas para la humedad costera: encimeras porcelánicas, herrajes inox y mobiliario hidrófugo.",
+      "Distribución, agua, electricidad, muebles y encimera. Abrir la cocina al comedor o reorganizarla para que funcione mejor.",
   },
   {
     title: "Reformas de Baños",
@@ -40,7 +40,7 @@ const services = [
     image: "/images/bano-natural-reformado-vendrell.webp",
     alt: "Reforma de baño de diseño en El Vendrell",
     description:
-      "Baños actuales con plato de obra, mampara fija y materiales antideslizantes. Sustitución de bañeras por ducha en pisos años 70-80.",
+      "De bañera a ducha, con impermeabilización bajo el revestimiento y ventilación para que el moho no vuelva.",
   },
   {
     title: "Reformas de Pisos",
@@ -48,7 +48,7 @@ const services = [
     image: "/images/salon-luminoso-mediterraneo-vendrell.webp",
     alt: "Reforma de vivienda completa en El Vendrell",
     description:
-      "Renovamos pisos vacacionales y viviendas habituales del Baix Penedès: instalaciones nuevas, suelos, carpintería y pintura.",
+      "Reforma completa o por estancias de pisos de playa y del centro, coordinada con la comunidad de vecinos.",
   },
   {
     title: "Reformas de Locales",
@@ -56,7 +56,7 @@ const services = [
     image: "/images/local-comercial-reformado-vendrell.webp",
     alt: "Reforma de local comercial en El Vendrell",
     description:
-      "Adecuación de comercios, restaurantes y oficinas en El Vendrell, Coma-ruga y paseos marítimos del Baix Penedès.",
+      "Tiendas, bares, despachos y consultas. Trámites municipales, obra y documentación para poder abrir en la fecha prevista.",
   },
 ];
 
@@ -64,8 +64,8 @@ export default function ServiciosPage() {
   return (
     <>
       <HeroService
-        title="Especialidades pensadas para el Baix Penedès"
-        subtitle="Reformas integrales, cocinas, baños, pisos y locales en El Vendrell y municipios cercanos. Cinco líneas de trabajo, un equipo coordinado y un único responsable de obra."
+        title="Cinco tipos de obra, una sola forma de trabajar"
+        subtitle="Viviendas completas, cocinas, baños, pisos y locales en El Vendrell y los pueblos de alrededor, con un responsable de obra que te acompaña de principio a fin."
         image="/images/hero-reforma-luminosa-vendrell.webp"
         imageAlt="Servicios de reformas en El Vendrell"
         h1Keyword="Servicios de reformas en El Vendrell"
@@ -84,7 +84,7 @@ export default function ServiciosPage() {
               Servicios de reformas en El Vendrell
             </h2>
             <p className="font-body text-subtitle text-base md:text-lg max-w-[600px] mx-auto mt-5">
-              Elige tu tipo de reforma y descubre cómo trabajamos cada estancia.
+              Entra en cada servicio para ver qué incluye, cómo lo organizamos y precios orientativos.
             </p>
           </div>
 
@@ -135,6 +135,26 @@ export default function ServiciosPage() {
         </div>
       </section>
 
+      {/* ============ CÓMO ELEGIR ============ */}
+      <section className="bg-beige-warm px-5 py-20 md:py-24">
+        <div className="mx-auto max-w-[900px] space-y-5 font-body text-subtitle text-base leading-relaxed">
+          <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold">Antes de pedir presupuesto</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Cómo saber qué tipo de reforma necesitas</h2>
+          <p>
+            Mucha gente nos llama pensando en cambiar el baño y, al revisar la vivienda, descubre que la instalación eléctrica o las tuberías piden una renovación completa. Otras veces ocurre lo contrario: alguien da por hecho que necesita una reforma integral y, en realidad, con cambiar cocina, baño y ventanas tiene la casa resuelta para muchos años. Por eso la primera visita sirve sobre todo para diagnosticar.
+          </p>
+          <p>
+            Una regla práctica: si la vivienda tiene más de treinta años y nunca se han tocado electricidad y fontanería, merece la pena valorar una <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reforma integral</Link> o, al menos, renovar las instalaciones generales antes de cambiar acabados. Si las instalaciones están bien, se puede ir por partes: primero la <Link href="/servicios/reformas-banos" className="text-accent font-semibold underline">reforma del baño</Link>, que es lo que más se deteriora con la humedad, después la <Link href="/servicios/reformas-cocinas" className="text-accent font-semibold underline">reforma de la cocina</Link>, y más adelante suelos, puertas y pintura.
+          </p>
+          <p>
+            En los apartamentos de Coma-ruga y Sant Salvador hay que añadir dos factores: la comunidad de vecinos, que marca horarios y temporadas de obra, y el ambiente marino, que obliga a elegir bien carpinterías, herrajes y pinturas. Lo detallamos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link>. En los negocios, lo que manda es el trámite que corresponde a la actividad y la fecha de apertura; lo explicamos en <Link href="/servicios/reformas-locales" className="text-accent font-semibold underline">reformas de locales</Link>.
+          </p>
+          <p>
+            Sea cual sea el servicio, el método es el mismo: visita sin coste, presupuesto desglosado, calendario por escrito, permisos tramitados por nosotros y una entrega en la que repasamos la obra contigo antes de darla por terminada. Si quieres hacerte una idea previa de importes, nuestro <Link href="/blog/cuanto-cuesta-reformar-piso-vendrell" className="text-accent font-semibold underline">artículo sobre precios de reforma</Link> recoge rangos orientativos por estancia.
+          </p>
+        </div>
+      </section>
+
       {/* ============ POR QUÉ CRV ============ */}
       <section className="bg-dark px-5 py-20 md:py-28">
         <div className="mx-auto max-w-[1200px] text-center">
@@ -145,7 +165,7 @@ export default function ServiciosPage() {
             Por qué elegir Clima Reformas Vendrell
           </h2>
           <p className="font-body text-white/60 text-base md:text-lg max-w-[560px] mx-auto mb-12">
-            La diferencia CRV: cuatro motivos por los que familias del Baix Penedès nos confían su obra.
+            Lo que se mantiene igual tanto si cambiamos un baño como si rehacemos una casa entera.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -159,7 +179,7 @@ export default function ServiciosPage() {
                   </svg>
                 ),
                 title: "Equipo propio",
-                text: "Profesionales coordinados internamente en cada fase de tu reforma para que la obra fluya con un único interlocutor.",
+                text: "Albañilería, fontanería, electricidad y carpintería coordinadas por la misma persona, que es la que te coge el teléfono.",
               },
               {
                 icon: (
@@ -168,7 +188,7 @@ export default function ServiciosPage() {
                   </svg>
                 ),
                 title: "Presupuesto cerrado",
-                text: "Sin sorpresas ni extras ocultos. El precio que pactamos es el precio final.",
+                text: "Cada partida por separado y por escrito. Si algo cambia durante la obra, lo hablamos antes de hacerlo.",
               },
               {
                 icon: (
@@ -177,7 +197,7 @@ export default function ServiciosPage() {
                   </svg>
                 ),
                 title: "Plazos reales",
-                text: "Cumplimos los tiempos comprometidos. Planificación rigurosa y ejecución eficiente.",
+                text: "Calendario por fases desde el inicio, contando con los permisos y con los materiales que tardan en llegar.",
               },
               {
                 icon: (
@@ -186,7 +206,7 @@ export default function ServiciosPage() {
                   </svg>
                 ),
                 title: "Acabados que duran",
-                text: "Materiales de calidad, ejecución cuidada y acompañamiento también después de la entrega.",
+                text: "Materiales escogidos para la humedad y el salitre de la costa, y respuesta dentro de la garantía legal si surge algo.",
               },
             ].map((item) => (
               <div key={item.title} className="flex flex-col items-center gap-4 p-6">
@@ -212,7 +232,7 @@ export default function ServiciosPage() {
             Solicita presupuesto para tu reforma
           </h2>
           <p className="font-body text-white/90 text-lg max-w-[500px]">
-            Cuéntanos qué necesitas y te preparamos un presupuesto detallado por escrito. Sin compromiso.
+            Explícanos qué quieres cambiar y te visitamos para darte un precio desglosado. Decides después, sin presión.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-2">
             <Link

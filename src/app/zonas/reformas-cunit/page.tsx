@@ -5,31 +5,31 @@ import CTAButtons from "@/components/CTAButtons";
 import BreadcrumbSchema from "@/components/BreadcrumbSchema";
 
 export const metadata: Metadata = {
-  title: "Reformas en Cunit · Pisos costeros y casas | CRV",
+  title: "Reformas en Cunit · Pisos costeros y casas",
   description:
-    "Reformas en Cunit: pisos en Cunit Platja, casas en Cunit Poble y locales. Equipo propio, presupuesto fijo y obra coordinada. Llama al 877 278 163.",
+    "Reformas en Cunit: apartamentos de la zona de playa, casas del pueblo y adosados de urbanización. Permisos, obra y coste por partidas. 877 278 163.",
   alternates: { canonical: "/zonas/reformas-cunit" },
   openGraph: {
-    title: "Reformas en Cunit · Clima Reformas Vendrell",
-    description: "Empresa de reformas en Cunit con sede en El Vendrell. Pisos costeros y casas.",
+    title: "Reformas en Cunit",
+    description: "Pisos de playa, casas del pueblo y adosados en Cunit, con equipo propio desde El Vendrell.",
     url: "/zonas/reformas-cunit",
     images: ["/images/piso-reformado-completo-vendrell.webp"],
   },
 };
 
 const services = [
-  { title: "Reformas Integrales", desc: "Renovamos pisos de Cunit Platja y casas del centro tradicional con equipo propio.", href: "/servicios/reformas-integrales" },
-  { title: "Reformas de Cocinas", desc: "Cocinas abiertas o en U adaptadas a pisos compactos de la primera línea.", href: "/servicios/reformas-cocinas" },
-  { title: "Reformas de Baños", desc: "Sustitución de bañeras por platos de obra antideslizantes; mucha demanda en pisos de los años 80.", href: "/servicios/reformas-banos" },
-  { title: "Reformas de Pisos", desc: "Pintura, suelos, distribución y carpintería en pisos vacacionales o de residencia habitual.", href: "/servicios/reformas-pisos" },
-  { title: "Reformas de Locales", desc: "Reformas de bares, comercios y oficinas en el paseo marítimo y la avenida principal.", href: "/servicios/reformas-locales" },
+  { title: "Reformas Integrales", desc: "Vaciado y renovación completa de apartamentos de playa y adosados de urbanización, con instalaciones nuevas.", href: "/servicios/reformas-integrales" },
+  { title: "Reformas de Cocinas", desc: "Cocinas pequeñas que se abren al comedor, con muebles y encimeras preparados para el ambiente húmedo.", href: "/servicios/reformas-cocinas" },
+  { title: "Reformas de Baños", desc: "De bañera a ducha, con impermeabilización y extractor en los baños interiores de los bloques.", href: "/servicios/reformas-banos" },
+  { title: "Reformas de Pisos", desc: "Ventanas, electricidad, suelos y pintura para pasar de piso de verano a vivienda de todo el año.", href: "/servicios/reformas-pisos" },
+  { title: "Reformas de Locales", desc: "Comercios y negocios de hostelería en el centro y cerca del paseo, con trámites incluidos.", href: "/servicios/reformas-locales" },
 ];
 
 const faqs = [
-  { q: "¿Hacéis reformas en pisos de alquiler vacacional en Cunit?", a: "Sí, es uno de los proyectos que más manejamos: pisos pequeños en primera línea de playa que necesitan optimización del espacio, materiales resistentes al uso intensivo y estética actual para destacar en plataformas de alquiler. Te entregamos el piso listo para fotos profesionales." },
-  { q: "¿Cuánto tarda una reforma de cocina y dos baños en un piso de Cunit Platja?", a: "Para un piso de 60-75 m² calcula entre 4 y 6 semanas, contando con que la fontanería y eléctrica se renuevan completamente. Si solo se cambia el mobiliario y los acabados, baja a 2-3 semanas." },
-  { q: "¿Cómo coordináis la obra si vivimos en otra ciudad?", a: "Trabajamos con propietarios que residen en Barcelona, Tarragona o incluso fuera de Cataluña. Te mantenemos informado del avance de la obra, gestionamos los accesos al edificio y la firma del proyecto puede hacerse telemáticamente. En la mayoría de casos basta con venir a la entrega." },
-  { q: "¿Se nota la cercanía con El Vendrell en los plazos?", a: "Sí. Estar a menos de 15 minutos en coche por la C-32 hace que podamos resolver imprevistos el mismo día y que los proveedores nos sirvan en horas, no en días. Eso reduce los plazos respecto a contratistas que vienen desde más lejos." },
+  { q: "¿Reformáis pisos que se alquilan en verano?", a: "Sí. En esos casos priorizamos materiales que aguanten mucho uso y se limpien rápido, una cocina y un baño robustos y una obra planificada en temporada baja para que el piso esté listo antes de la temporada. Recuerda que el alquiler turístico requiere registro y que conviene confirmar las condiciones municipales antes de invertir." },
+  { q: "¿Cuánto se tarda en reformar cocina y baño en un piso de Cunit?", a: "En un piso de 60 a 75 m², con fontanería y electricidad nuevas en esas estancias, entre 4 y 6 semanas. Si solo se cambian muebles y acabados, entre 2 y 3." },
+  { q: "Vivo fuera, ¿puedo seguir la obra a distancia?", a: "Es lo habitual con propietarios que viven en Barcelona o en otras ciudades. Te enviamos fotos al cerrar cada fase, gestionamos el acceso al edificio con la comunidad y solo hace falta que vengas al principio y a la entrega." },
+  { q: "¿Mi piso cogerá menos humedad después de la reforma?", a: "Si el problema es condensación, sí mejora mucho al cambiar ventanas, aislar las paredes más frías y ventilar los baños interiores. Si es una filtración de fachada o cubierta, hay que resolverla con la comunidad. En la visita te decimos qué es cada cosa." },
 ];
 
 export default function ZonaCunitPage() {
@@ -42,9 +42,9 @@ export default function ZonaCunitPage() {
       ]} />
 
       <HeroService
-        title="Reformas en Cunit — Pisos costeros, casas y locales"
+        title="Reformas en Cunit, en el límite norte de la comarca"
         h1Keyword="Reformas en Cunit"
-        subtitle="Pisos vacacionales, viviendas de residencia habitual y locales en el paseo marítimo. Coste fijo, calendario claro y equipo propio desde El Vendrell."
+        subtitle="Apartamentos junto al paseo, casas del núcleo antiguo y adosados en las urbanizaciones que suben desde la playa. Un responsable de obra y un calendario por escrito."
         image="/images/piso-reformado-completo-vendrell.webp"
         imageAlt="Reforma de piso costero en Cunit"
         badge="Zona de servicio"
@@ -55,13 +55,19 @@ export default function ZonaCunitPage() {
       <section className="bg-beige px-5 py-16 md:py-24">
         <div className="mx-auto max-w-[900px]">
           <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Cunit · Baix Penedès</p>
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Reformas en Cunit y Cunit Platja</h2>
-          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">A 12 km de El Vendrell, frente al Mediterráneo.</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1] mb-3">Cómo es reformar una vivienda en Cunit</h2>
+          <p className="font-body text-subtitle text-base md:text-lg leading-relaxed mb-6">El último municipio de la provincia de Tarragona antes de entrar en el Garraf, con mucha vivienda de temporada y cada vez más gente que vive aquí todo el año.</p>
           <div className="w-16 h-[3px] bg-accent rounded-full mb-6" />
           <div className="space-y-4 font-body text-subtitle text-base leading-relaxed">
-            <p>Cunit es un municipio costero de unos 13.000 habitantes (más en verano) con un perfil residencial muy particular: gran parte del parque inmobiliario son pisos vacacionales o segundas residencias en Cunit Platja, mientras que Cunit Poble conserva casas familiares y construcciones más tradicionales algo retiradas del mar.</p>
-            <p>La mayoría de las reformas que hacemos en Cunit son sobre pisos costeros de los años 80 que arrastran problemas comunes: fontanería envejecida, eléctrica sin protecciones modernas, ventanas sin rotura de puente térmico y baños con bañera donde la familia ya prefiere ducha. Son obras que repetimos cada temporada y conocemos al detalle.</p>
-            <p>Llegamos en 12 minutos por la C-32 desde nuestra sede en El Vendrell. Esa cercanía nos permite escalonar visitas, probar materiales en obra y responder rápido si surge cualquier imprevisto. Los proveedores con los que trabajamos sirven a Cunit con los mismos tiempos que a El Vendrell.</p>
+            <p>Cunit ha cambiado mucho en pocas décadas. Lo que era un pueblo pequeño con su núcleo alrededor de la iglesia y el castillo se convirtió, a partir de los años setenta, en un destino de veraneo para familias del área de Barcelona, y más tarde en un lugar de residencia habitual para quien trabaja en el Garraf, en el Penedès o incluso en la capital y aprovecha la conexión por tren y por la C-32. Esa mezcla se ve en el tipo de vivienda: bloques de apartamentos cerca de la playa, calles de casas del pueblo y urbanizaciones de adosados y unifamiliares hacia el interior.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Apartamentos de la zona de playa</h3>
+            <p>Son el encargo más habitual. Pisos de 50 a 80 m² con terraza, cocina pequeña y un baño, construidos para pasar el verano. Muchos han pasado ya por varias manos y conservan la instalación eléctrica original, ventanas correderas que no aíslan y baños con bañera. Cuando su propietario decide vivir aquí todo el año, descubre que en invierno el piso es frío y húmedo. La reforma suele incluir ventanas nuevas, electricidad completa, baño con ducha y una cocina que se abra al comedor para ganar luz. Si quieres ver cómo enfocamos este tipo de obra, lo explicamos en <Link href="/servicios/reformas-pisos" className="text-accent font-semibold underline">reformas de pisos</Link>.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Casas del núcleo y adosados</h3>
+            <p>En el pueblo quedan casas entre medianeras de dos plantas, algunas con patio, que piden revisar cubierta, humedades en planta baja y escaleras. En las urbanizaciones, los adosados de los ochenta y noventa necesitan sobre todo actualizar baños y cocina, mejorar el aislamiento y cambiar sistemas de calefacción poco eficientes. En estos casos la <Link href="/servicios/reformas-integrales" className="text-accent font-semibold underline">reforma integral</Link> suele ser más rentable que ir cambiando piezas sueltas.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Trámites con el Ajuntament de Cunit</h3>
+            <p>Como en el resto de la comarca, las obras interiores sin afectar a estructura ni fachada se tramitan normalmente con una comunicación previa, y las que modifican distribución de forma importante, fachada o elementos estructurales necesitan proyecto técnico y licencia. Si el contenedor va en la calle, se pide además la ocupación de vía pública. Preparamos la documentación y te avisamos con tiempo de los plazos.</p>
+            <h3 className="font-body font-bold text-dark text-xl pt-4">Por qué trabajamos aquí desde El Vendrell</h3>
+            <p>Cunit está a unos 12 km de nuestra oficina, un trayecto corto por la C-32 o la N-340. Eso nos permite pasar por la obra con frecuencia, resolver imprevistos el mismo día y coordinar entregas de material sin recargos de desplazamiento. Es la misma lógica con la que trabajamos en <Link href="/zonas/reformas-calafell" className="text-accent font-semibold underline">Calafell</Link>, a medio camino entre los dos municipios.</p>
           </div>
         </div>
       </section>
@@ -70,7 +76,7 @@ export default function ZonaCunitPage() {
         <div className="mx-auto max-w-[1200px]">
           <div className="text-center mb-12">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Servicios</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Reformas en Cunit a tu medida</h2>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[44px] text-white leading-[1.05]">Qué reformamos en Cunit</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((s) => (
@@ -88,7 +94,7 @@ export default function ZonaCunitPage() {
         <div className="mx-auto max-w-[800px]">
           <div className="text-center mb-12">
             <p className="font-body text-accent text-sm uppercase tracking-[0.2em] font-bold mb-4">Dudas habituales</p>
-            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Reformas en Cunit: lo que nos preguntáis</h2>
+            <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-dark leading-[1.1]">Preguntas sobre reformas en Cunit</h2>
           </div>
           <div className="space-y-5">
             {faqs.map((faq) => (
@@ -126,8 +132,8 @@ export default function ZonaCunitPage() {
 
       <section className="bg-accent px-5 py-16 md:py-20">
         <div className="mx-auto max-w-[800px] text-center flex flex-col items-center gap-6">
-          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Reformas un piso o un local en Cunit?</h2>
-          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Pasamos a verlo sin coste y te entregamos un presupuesto detallado por escrito. Trato directo con el responsable de obra desde el primer día.</p>
+          <h2 className="font-display font-extrabold text-[28px] md:text-[40px] text-white leading-[1.1]">¿Tienes un piso o una casa en Cunit?</h2>
+          <p className="text-white/90 text-base md:text-lg max-w-[520px]">Pasamos a verlo sin coste y te dejamos un presupuesto por partidas, con el calendario de obra por escrito.</p>
           <CTAButtons className="justify-center" />
         </div>
       </section>
