@@ -22,8 +22,8 @@ const posts = [
     title: "Humedad y condensación en pisos de playa en invierno",
     excerpt:
       "Por qué aparece moho en los apartamentos de Coma-ruga y Sant Salvador que pasan el invierno cerrados, cómo distinguirlo de una filtración y qué se puede hacer con y sin obra.",
-    image: "/images/habitacion-reformada-vendrell.webp",
-    imageAlt: "Dormitorio reformado sin humedades en un piso de playa de El Vendrell",
+    image: "/images/blog/humedad-condensacion-pisos-playa-invierno.webp",
+    imageAlt: "Humedad y condensación en pisos de playa en invierno en El Vendrell",
     date: "15 noviembre 2026",
     category: "Mantenimiento",
   },
@@ -32,8 +32,8 @@ const posts = [
     title: "¿Cuánto cuesta reformar un piso en El Vendrell en 2026?",
     excerpt:
       "Rangos orientativos por metro cuadrado y por estancia, partidas que encarecen los pisos de la costa y cómo comparar presupuestos sin llevarte sorpresas.",
-    image: "/images/piso-reformado-completo-vendrell.webp",
-    imageAlt: "Reforma de piso costero en El Vendrell - precios 2026",
+    image: "/images/blog/cuanto-cuesta-reformar-piso-vendrell.webp",
+    imageAlt: "¿Cuánto cuesta reformar un piso en El Vendrell en 2026?",
     date: "10 marzo 2026",
     category: "Guía de precios",
   },
@@ -42,8 +42,8 @@ const posts = [
     title: "Tendencias en cocinas 2026: ideas para pisos costeros",
     excerpt:
       "Penínsulas, encimeras compactas, colores cálidos y luz por zonas: qué ideas de 2026 funcionan en un apartamento junto al mar y cuáles conviene evitar.",
-    image: "/images/cocina-isla-tendencias-vendrell.webp",
-    imageAlt: "Cocina con isla central acogedora - tendencias en reformas 2026 para El Vendrell",
+    image: "/images/blog/tendencias-cocinas-2026.webp",
+    imageAlt: "Tendencias en cocinas 2026 para pisos del Baix Penedès",
     date: "26 febrero 2026",
     category: "Tendencias",
   },
@@ -52,8 +52,8 @@ const posts = [
     title: "Ayudas a la rehabilitación energética en el Baix Penedès",
     excerpt:
       "Tipos de ayuda y deducción para ventanas, aislamiento, aerotermia o placas solares, qué obras suelen encajar y cómo prepararse antes de pedirlas.",
-    image: "/images/casa-eficiencia-energetica-vendrell.webp",
-    imageAlt: "Casa moderna con jardín - ayudas para rehabilitación energética en el Baix Penedès",
+    image: "/images/blog/ayudas-rehabilitacion-energetica-baix-penedes.webp",
+    imageAlt: "Ayudas a la rehabilitación energética en el Baix Penedès",
     date: "12 febrero 2026",
     category: "Ayudas y subvenciones",
   },

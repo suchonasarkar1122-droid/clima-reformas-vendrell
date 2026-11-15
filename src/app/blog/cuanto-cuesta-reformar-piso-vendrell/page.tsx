@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Qué mueve el precio de una reforma de piso en la costa y el centro del Vendrell, con rangos por metro cuadrado y por estancia.",
     url: "/blog/cuanto-cuesta-reformar-piso-vendrell",
     type: "article",
-    images: ["/images/piso-reformado-completo-vendrell.webp"],
+    images: ["/images/blog/cuanto-cuesta-reformar-piso-vendrell.webp"],
   },
 };
 
@@ -24,7 +24,7 @@ export default function BlogPrecioReformaPiso() {
     headline: "¿Cuánto cuesta reformar un piso en El Vendrell en 2026?",
     description:
       "Rangos orientativos por metro cuadrado y por estancia para reformar pisos en El Vendrell, con las partidas que más hacen variar el presupuesto.",
-    image: "https://reformasvendrell.es/images/piso-reformado-completo-vendrell.webp",
+    image: "https://reformasvendrell.es/images/blog/cuanto-cuesta-reformar-piso-vendrell.webp",
     author: { "@type": "Organization", name: "Clima Reformas Vendrell" },
     publisher: {
       "@id": "https://reformasvendrell.es/#business",
@@ -45,7 +45,7 @@ export default function BlogPrecioReformaPiso() {
       ]} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/piso-reformado-completo-vendrell.webp" alt="Piso costero reformado en El Vendrell" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/cuanto-cuesta-reformar-piso-vendrell.webp" alt="¿Cuánto cuesta reformar un piso en El Vendrell en 2026?" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

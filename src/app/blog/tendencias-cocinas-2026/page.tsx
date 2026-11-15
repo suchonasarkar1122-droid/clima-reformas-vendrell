@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Qué tendencias de cocina tienen sentido en un apartamento de playa o una casa del centro del Vendrell, y cuáles conviene evitar.",
     url: "/blog/tendencias-cocinas-2026",
     type: "article",
-    images: ["/images/cocina-isla-tendencias-vendrell.webp"],
+    images: ["/images/blog/tendencias-cocinas-2026.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function BlogTendenciasCocinas() {
     "@type": "Article",
     headline: "Tendencias en cocinas 2026 para pisos del Baix Penedès",
     description: "Tendencias de distribución, materiales, color e iluminación en cocinas, filtradas para pisos de costa y casas del Vendrell.",
-    image: "https://reformasvendrell.es/images/cocina-isla-tendencias-vendrell.webp",
+    image: "https://reformasvendrell.es/images/blog/tendencias-cocinas-2026.webp",
     author: { "@type": "Organization", name: "Clima Reformas Vendrell" },
     publisher: {
       "@id": "https://reformasvendrell.es/#business",
@@ -44,7 +44,7 @@ export default function BlogTendenciasCocinas() {
       ]} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/cocina-isla-tendencias-vendrell.webp" alt="Cocina con isla central acogedora en piso reformado de El Vendrell" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/tendencias-cocinas-2026.webp" alt="Tendencias en cocinas 2026 para pisos del Baix Penedès" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

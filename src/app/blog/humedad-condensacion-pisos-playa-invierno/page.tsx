@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Guía práctica para propietarios de segundas residencias en la costa del Vendrell: causas del moho invernal y soluciones.",
     url: "/blog/humedad-condensacion-pisos-playa-invierno",
     type: "article",
-    images: ["/images/habitacion-reformada-vendrell.webp"],
+    images: ["/images/blog/humedad-condensacion-pisos-playa-invierno.webp"],
   },
 };
 
@@ -24,7 +24,7 @@ export default function BlogHumedadCondensacion() {
     headline: "Humedad y condensación en pisos de playa en invierno",
     description:
       "Causas de la condensación y el moho en segundas residencias cerradas de la costa del Vendrell, medidas sencillas y soluciones de obra.",
-    image: "https://reformasvendrell.es/images/habitacion-reformada-vendrell.webp",
+    image: "https://reformasvendrell.es/images/blog/humedad-condensacion-pisos-playa-invierno.webp",
     author: { "@type": "Organization", name: "Clima Reformas Vendrell" },
     publisher: {
       "@id": "https://reformasvendrell.es/#business",
@@ -45,7 +45,7 @@ export default function BlogHumedadCondensacion() {
       ]} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/habitacion-reformada-vendrell.webp" alt="Dormitorio luminoso y sin humedades en un piso reformado de El Vendrell" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/humedad-condensacion-pisos-playa-invierno.webp" alt="Humedad y condensación en pisos de playa en invierno en El Vendrell" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">

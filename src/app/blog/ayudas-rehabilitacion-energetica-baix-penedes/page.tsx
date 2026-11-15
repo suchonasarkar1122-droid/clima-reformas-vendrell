@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: "Guía práctica para propietarios de El Vendrell y comarca: tipos de ayuda, obras que suelen encajar y pasos para no perder la convocatoria.",
     url: "/blog/ayudas-rehabilitacion-energetica-baix-penedes",
     type: "article",
-    images: ["/images/casa-eficiencia-energetica-vendrell.webp"],
+    images: ["/images/blog/ayudas-rehabilitacion-energetica-baix-penedes.webp"],
   },
 };
 
@@ -23,7 +23,7 @@ export default function BlogAyudasRehabilitacion() {
     "@type": "Article",
     headline: "Ayudas a la rehabilitación energética en el Baix Penedès",
     description: "Tipos de ayudas y deducciones para mejorar la eficiencia energética de viviendas en El Vendrell y el Baix Penedès, y cómo prepararse para solicitarlas.",
-    image: "https://reformasvendrell.es/images/casa-eficiencia-energetica-vendrell.webp",
+    image: "https://reformasvendrell.es/images/blog/ayudas-rehabilitacion-energetica-baix-penedes.webp",
     author: { "@type": "Organization", name: "Clima Reformas Vendrell" },
     publisher: {
       "@id": "https://reformasvendrell.es/#business",
@@ -44,7 +44,7 @@ export default function BlogAyudasRehabilitacion() {
       ]} />
 
       <section className="relative h-[400px] md:h-[480px] w-full overflow-hidden">
-        <Image src="/images/casa-eficiencia-energetica-vendrell.webp" alt="Casa moderna con jardín y eficiencia energética en el Baix Penedès" fill className="object-cover" priority sizes="100vw" />
+        <Image src="/images/blog/ayudas-rehabilitacion-energetica-baix-penedes.webp" alt="Ayudas a la rehabilitación energética en el Baix Penedès" fill className="object-cover" priority sizes="100vw" />
         <div className="absolute inset-0 bg-black/70" />
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-5">
           <div className="max-w-[820px] flex flex-col items-center gap-4">
