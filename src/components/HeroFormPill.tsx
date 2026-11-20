@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { submitLead } from "@/lib/submitLead";
 
 type Props = {
   formspreeId: string;
@@ -21,11 +22,7 @@ export default function HeroFormPill({ formspreeId, origin, localities, serviceT
     const form = e.currentTarget;
     const data = new FormData(form);
     try {
-      const res = await fetch(`https://formspree.io/f/${formspreeId}`, {
-        method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
-      });
+      const res = await submitLead(data, `https://formspree.io/f/${formspreeId}`);
       if (res.ok) setSubmitted(true);
       else setError(true);
     } catch {

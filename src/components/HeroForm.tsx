@@ -1,6 +1,7 @@
 ﻿"use client";
 
 import { useState } from "react";
+import { submitLead } from "@/lib/submitLead";
 
 export default function HeroForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -16,11 +17,7 @@ export default function HeroForm() {
     const data = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/xaqvygaw", {
-        method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
-      });
+      const res = await submitLead(data, "https://formspree.io/f/xaqvygaw");
       if (res.ok) {
         setSubmitted(true);
       } else {
